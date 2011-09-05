@@ -1,0 +1,228 @@
+/* fieldset class (box) */
+fieldset.tx-lfeditor-fieldset, fieldset.tx-lfeditor-fieldset fieldset {
+	padding: 5px;
+	padding-top: 10px;
+	_padding-top: 20px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #AAA;
+	position: relative; /* needed for IE fieldset hack */
+}
+
+fieldset.tx-lfeditor-fleft, fieldset.tx-lfeditor-fright {
+	width: 47%;
+}
+
+fieldset.tx-lfeditor-fleft {
+	float: left;
+	clear: both;
+}
+
+fieldset.tx-lfeditor-fright {
+	float: right;
+	_clear: both;
+}
+
+fieldset.tx-lfeditor-fieldset legend {
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: bold;
+	border: 1px solid #AAA;
+
+	/* IE fieldset hack */
+	position: absolute;
+	top: -11px;
+	_top: -6px;
+}
+
+fieldset.tx-lfeditor-fieldset fieldset dt {
+	font-weight: bold;
+}
+
+fieldset.tx-lfeditor-fieldset fieldset a {
+	text-decoration: none;
+}
+
+fieldset.tx-lfeditor-fieldset fieldset dd {
+	margin-bottom: 5px;
+}
+
+/* form elements */
+input, select, textarea, button {
+	padding: 1px 2px;
+	border-width: 1px;
+	border-color: #AAA;
+	background-color: #FFF;
+}
+
+.tx-lfeditor-buttons {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	clear: both;
+}
+
+button {
+	margin-left: 5px;
+	font-weight: bold;
+	font-size: 1.1em;
+	background: none;
+	border: none;
+	background-image: none;
+	background-color: #FFF;
+	border: 1px solid #AAA;
+	cursor: pointer;
+}
+
+/* table */
+#tx-lfeditor-table {
+	margin-bottom: 10px;
+	width: 100%;
+	clear: both;
+}
+
+#tx-lfeditor-table thead {
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+#tx-lfeditor-table tbody {
+	text-align: center;
+}
+
+#tx-lfeditor-table tbody td, #tx-lfeditor-table thead th {
+	padding: 2px;
+	border: 1px solid #AAA;
+}
+
+#tx-lfeditor-table tbody td a {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#tx-lfeditor-table tbody td img {
+	vertical-align: middle;
+}
+
+/* markup classes */
+.tx-lfeditor-error, .tx-lfeditor-notice,
+.tx-lfeditor-success, .tx-lfeditor-delConst {
+	margin-bottom: 10px;
+}
+
+.tx-lfeditor-goodMarkup, .tx-lfeditor-success {
+	color: #339900;
+	font-weight: bold;
+}
+
+.tx-lfeditor-badMarkup, .tx-lfeditor-error, .tx-lfeditor-delConst {
+	color: #CC2200;
+	font-weight: bold;
+}
+
+.tx-lfeditor-specialMarkup, .tx-lfeditor-notice {
+	color: #0078DE;
+	font-weight: bold;
+}
+
+#tx-lfeditor-table-markup1, #tx-lfeditor-table-markup2,
+#tx-lfeditor-table-markup3, #tx-lfeditor-table-markup4,
+#tx-lfeditor-deleteAll {
+	color: #FFF;
+	width: 20px;
+}
+
+#tx-lfeditor-table-markup1 {
+	background-color: #CC2200;
+}
+
+#tx-lfeditor-table-markup2 {
+	background-color: #339900;
+}
+
+#tx-lfeditor-table-markup3 {
+	background-color: #0078DE;
+}
+
+#tx-lfeditor-table-markup4 {
+	background-color: #E9FA2E;
+}
+
+/* some special classes/ids */
+#tx-lfeditor-caseSensitiveBox {
+	margin-bottom: 5px;
+}
+
+.tx-lfeditor-defaultTranslation {
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #AAA;
+	border-top: none;
+}
+
+.tx-lfeditor-textarea {
+	width: 100%;
+}
+
+.tx-lfeditor-fieldset #metaType {
+	margin-right: 10px;
+}
+
+#tx-lfeditor-numberCur, #tx-lfeditor-numberOf {
+	font-weight: bold;
+}
+
+.tx-lfeditor-label {
+	font-weight: bold;
+	float: left;
+	clear: both;
+}
+
+.tx-lfeditor-input {
+	width: 250px;
+	float: right;
+}
+
+.tx-lfeditor-label, .tx-lfeditor-input {
+	margin-bottom: 5px;
+}
+
+/* tree view */
+.tx-lfeditor-fieldset dl.tx-lfeditor-treeview,
+.tx-lfeditor-fieldset dl.tx-lfeditor-treeview dt,
+.tx-lfeditor-fieldset dl.tx-lfeditor-treeview dd {
+	margin: 0px;
+	padding: 0px;
+}
+
+.tx-lfeditor-fieldset dl.tx-lfeditor-treeview dt,
+.tx-lfeditor-fieldset dl.tx-lfeditor-treeview dd {
+	clear: left;
+}
+
+.tx-lfeditor-fieldset dl.tx-lfeditor-treeview img {
+	float: left;
+}
+
+/* textarea resizer */
+.handle-normal, .handle-highlight {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	height: 5px;
+	cursor: s-resize;
+}
+
+* html body .handle-normal, * html body .handle-highlight {
+	margin-top: -8px;
+}
+
+.handle-normal {
+	color: #339900;
+	background: #339900;
+}
+
+.handle-highlight {
+	color: #0078DE;
+	background: #0078DE;
+}

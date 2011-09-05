@@ -1,0 +1,10 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+Document, listing recently edited records if no records were open
+(alt_doc_nodoc.php) - this is effectively the Doc module
+
+$Id: element_recent_edited.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table.typo3-recent-edited td {
+	white-space: nowrap;
+}

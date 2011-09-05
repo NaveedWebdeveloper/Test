@@ -1,0 +1,36 @@
+/** left_menu.css
+* --- Gosign media. ---
+* version 1.0
+* (c) Copyright 2008 Gosign media. All Rights Reserved.
+* 2008-24-01
+*/
+#nav_left {
+	margin:20px;
+	background:#ffffff;
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+}
+
+#nav_left a{
+	font-size:1em;
+	color:#000000;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	margin:5px 0 5px 25px;
+}
+
+#nav_left li.act a{
+	color:#990000;
+}
+
+ul.sub_left {
+	font-size:0.8em;
+	background:#666666;
+	color:#FFFFFF;
+}
+
+#nav_left li.act ul.sub_left li.sub_act a{
+	color:#FFFFFF;
+}

@@ -1,0 +1,24 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+Flash Messages (template.php)
+
+$Id: element_message.css 7937 2010-06-16 17:32:00Z psychomieze $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#typo3-messages {
+	margin-bottom: 10px;
+}
+
+.typo3-message {
+	margin-bottom: 4px;
+	padding: 12px;
+	padding-left: 36px;
+}
+
+.typo3-message ul,
+.typo3-message ol {
+	padding-left: 16px;
+}
+
+.typo3-message .message-header {
+	display: block;
+}

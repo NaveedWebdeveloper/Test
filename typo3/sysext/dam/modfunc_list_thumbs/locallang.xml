@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description></description>
+		<type>module</type>
+		<csh_table></csh_table>
+		<fileId>EXT:dam/modfunc_list_thumbs/locallang.xml</fileId>
+		<labelContext type="array">
+			<label index="tx_dam_list_thumbs.title"></label>
+			<label index="tx_dam_list_thumbs.bigThumb"></label>
+			<label index="tx_dam_list_thumbs.showTitle"></label>
+			<label index="tx_dam_list_thumbs.showInfo"></label>
+			<label index="tx_dam_list_thumbs.showIcons"></label>
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_dam_list_thumbs.title">Thumbnails</label>
+			<label index="tx_dam_list_thumbs.bigThumb">Big thumbnails</label>
+			<label index="tx_dam_list_thumbs.showTitle">Show title</label>
+			<label index="tx_dam_list_thumbs.showInfo">Show Info</label>
+			<label index="tx_dam_list_thumbs.showIcons">Show edit options</label>
+		</languageKey>
+	</data>
+</T3locallang>

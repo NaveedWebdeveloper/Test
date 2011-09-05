@@ -1,0 +1,123 @@
+a:5:{s:4:"save";a:3:{s:13:"extension_key";s:13:"goprintbutton";s:18:"print_wop_comments";s:1:"1";s:15:"overwrite_files";a:8:{s:9:"ChangeLog";s:1:"1";s:10:"README.txt";s:1:"1";s:12:"ext_icon.gif";s:1:"1";s:14:"ext_tables.php";s:1:"1";s:19:"doc/wizard_form.dat";s:1:"1";s:20:"doc/wizard_form.html";s:1:"1";s:39:"static/_ext_goPrintButton/constants.txt";s:1:"1";s:35:"static/_ext_goPrintButton/setup.txt";s:1:"1";}}s:6:"emconf";a:1:{i:1;a:7:{s:5:"title";s:13:"goPrintButton";s:11:"description";s:24:"Druckansicht und Buttons";s:8:"category";s:2:"fe";s:5:"state";s:5:"alpha";s:12:"dependencies";s:0:"";s:6:"author";s:13:"Marius Stuebs";s:12:"author_email";s:16:"marius@gosign.de";}}s:9:"languages";a:1:{i:1;a:45:{s:2:"ar";s:1:"0";s:2:"my";s:1:"0";s:2:"eu";s:1:"0";s:2:"ba";s:1:"0";s:2:"br";s:1:"0";s:2:"bg";s:1:"0";s:2:"ca";s:1:"0";s:2:"ch";s:1:"0";s:2:"hk";s:1:"0";s:2:"hr";s:1:"0";s:2:"cz";s:1:"0";s:2:"dk";s:1:"0";s:2:"nl";s:1:"0";s:2:"eo";s:1:"0";s:2:"et";s:1:"0";s:2:"fo";s:1:"0";s:2:"fi";s:1:"0";s:2:"fr";s:1:"0";s:2:"de";s:1:"1";s:2:"gr";s:1:"0";s:2:"gl";s:1:"0";s:2:"he";s:1:"0";s:2:"hi";s:1:"0";s:2:"hu";s:1:"0";s:2:"is";s:1:"0";s:2:"it";s:1:"0";s:2:"jp";s:1:"0";s:2:"kr";s:1:"0";s:2:"lv";s:1:"0";s:2:"lt";s:1:"0";s:2:"no";s:1:"0";s:2:"fa";s:1:"0";s:2:"pl";s:1:"0";s:2:"pt";s:1:"0";s:2:"ro";s:1:"0";s:2:"ru";s:1:"0";s:2:"sr";s:1:"0";s:2:"sk";s:1:"0";s:2:"si";s:1:"0";s:2:"es";s:1:"0";s:2:"se";s:1:"0";s:2:"th";s:1:"0";s:2:"tr";s:1:"0";s:2:"ua";s:1:"0";s:2:"vn";s:1:"0";}}s:2:"ts";a:1:{i:1;a:3:{s:5:"title";s:18:"+ext goPrintButton";s:9:"constants";s:0:"";s:5:"setup";s:3188:"##############################
+# PDF-Ansicht:
+#
+# Einstellungen
+#
+text_header_left = $LOGOIMAGE
+text_header_center = $HEADING
+text_header_right = 
+text_footer_left =
+text_footer_center =
+text_footer_right = Generiert: $DATE, $TIME
+logoimage = fileadmin/images/logo.png
+
+size_headfootsize = 9
+font_body = Arial
+padding_top = 10mm
+padding_left = 10mm
+padding_right = 10mm
+padding_bottom = 10mm
+
+
+#
+##### Buttons ###########################
+#
+go_printbutton = COA
+go_printbutton {
+#
+# PDF-Knopf
+#
+	 20 = IMAGE
+	 20 {
+	 	altText.value = PDF von dieser Seite erzeugen
+		titleText.value = PDF von dieser Seite erzeugen
+		file = fileadmin/templates/images/pdf_button.png
+		stdWrap.postUserFunc = tx_pdfgenerator->makePdfLink
+		stdWrap.postUserFunc.include_post_vars = 1
+		}
+	}
+#
+# Druck-Knopf
+#
+	 30 = IMAGE
+	 30 {
+	 	altText.value = Druckansicht zu dieser Seite
+		titleText.value = Druckansicht zu dieser Seite
+		file = fileadmin/templates/images/print_button.png
+		stdWrap.typolink.parameter.data = TSFE:id
+		stdWrap.typolink.additionalParams = &print=1
+		stdWrap.typolink.target = _blank
+	      	stdWrap.wrap = <td id="druck_button" class="buttonheading" align="right">|</td>
+	}
+}
+
+#
+############### Die PDF Funktion /Ansicht - START ####################
+#
+# ACHTUNG diese Bedingung wird in der .htaccess gesetzt
+[globalVar = GP:pdf = 1]
+
+#topmenu >
+#leftmenu >
+#rightmenu >
+
+# entferne den Print-Button # entferne den PDF-Button
+go_printbutton.20 >
+go_printbutton.30 >
+
+
+# Doku:
+#http://typo3.org/documentation/document-library/extension-manuals/pdf_generator/3.3.0/view/1/3/#id2708646
+
+pdf_generator {
+  config.pdf_generator.header_left < text_header_left
+  config.pdf_generator.header_center < text_header_center
+  config.pdf_generator.header_right < text_header_right
+  config.pdf_generator.footer_left < text_footer_left 
+  config.pdf_generator.footer_center < text_footer_center
+  config.pdf_generator.footer_right < text_footer_right 
+  config.pdf_generator.bodyfont = Arial
+  config.pdf_generator.fontsize = 9
+  config.pdf_generator.headfootsize = 2
+  config.pdf_generator.top < padding_top
+  config.pdf_generator.left < padding_left
+  config.pdf_generator.right < padding_right 
+  config.pdf_generator.bottom < padding_bottom 
+  config.pdf_generator.logoimage < logoimage 
+
+  50 >
+  50 = USER
+
+  50.userFunc = tx_templavoila_pi1->main_page
+
+  50.childTemplate=pdf
+
+
+}
+	
+[end]
+#
+######## PDF-Ansicht ENDE der PDF-Ansicht
+
+
+#
+# Die PRINT Funktion /Ansicht - START
+#
+# Marius sagt:
+# > Die Druckansicht des Browsers zu aktivieren, geht nicht per Link
+# > Deswegen: Druckansicht auch im Screen-Modus des Browsers verfügbar machen!
+#
+#
+[globalVar = GP:print = 1]
+	page.includeCSS {
+		file1 = fileadmin/templates/css/print.css
+		file1.title = Druckansicht
+		file1.media = all
+	}
+	# > eigentlich ist media = print, aber da auch die Anzeige in Print-Layout geschehen soll ...
+		
+	page.bodyTag =<body bgcolor="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="javascript:window.print()">
+[end]
+
+######## Print-Ansicht ENDE der Print Ansicht
+";}}s:2:"sv";a:0:{}}

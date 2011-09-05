@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index="mlang_labels_tabdescr">This module serves several functions for editing of language files. Translators and extension authors are supported in equal measure.&lt;br /&gt;&lt;br /&gt;Following functions are implemented in this module:&lt;br /&gt;&lt;br /&gt;  * Formats: PHP and XML&lt;br /&gt;  * enhanced insert types&lt;br /&gt;  * conversion from PHP to XML and vice versa&lt;br /&gt;  * splitting and merging of language files&lt;br /&gt;  * workspaces (local (only in backend modules) and global)&lt;br /&gt;  * simple editing of constants and languages&lt;br /&gt;  * flexible search and view of constants and values&lt;br /&gt;  * meta information handling&lt;br /&gt;  * backups, recovering and diff view</label>
+			<label index="mlang_labels_tablabel">Rediger sprogfiler</label>
+			<label index="mlang_tabs_tab">LFEditor </label>
+		</languageKey>
+	</data>
+</T3locallangExt>

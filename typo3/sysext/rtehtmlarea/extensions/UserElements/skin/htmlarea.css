@@ -1,0 +1,6 @@
+/* Selectors for the User Elements extension of htmlArea RTE */
+/* TYPO3 SVN ID: $Id: htmlarea.css 8281 2010-07-26 23:18:50Z stan $ */
+.htmlarea-action-user-element-edit {
+	background-image: url('images/user.gif') !important;
+	background-position: 0 0 !important;
+}

@@ -1,0 +1,12 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:go_tsconfig/ext_ts_basic.ts">
+#<INCLUDE_TYPOSCRIPT: source="FILE:EXT:go_tsconfig/ext_ts_header.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:go_tsconfig/ext_ts_naviTop.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:go_tsconfig/ext_ts_naviLeft.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:go_tsconfig/ext_ts_naviFooter.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:go_tsconfig/ext_ts_naviBreadcrumb.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:go_tsconfig/ext_ts_naviService.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:go_tsconfig/ext_ts_printMenu.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:go_tsconfig/ext_ts_myTS.ts">
+
+# should be always the last include, it is for local development configs only (not included in git!)
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:go_tsconfig/ext_ts_localconf.ts">

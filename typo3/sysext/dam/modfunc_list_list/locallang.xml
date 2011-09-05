@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description></description>
+		<type>module</type>
+		<csh_table></csh_table>
+		<fileId>EXT:dam/modfunc_list_list/locallang.xml</fileId>
+		<labelContext type="array">
+			<label index="tx_dam_list_list.title"></label>
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_dam_list_list.title">List</label>
+			<label index="tx_dam_list_list.onlyDeselected">Show deselected only</label>
+		</languageKey>
+	</data>
+</T3locallang>

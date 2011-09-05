@@ -1,0 +1,8 @@
+2009-10-21 Caspar Stuebs @ Gosign media.  <caspar@gosign.de>
+
+	* automatic baseUrl removed
+	* new field in table pages: robots
+
+2009-04-07 Caspar Stuebs @ Gosign media.  <caspar@gosign.de>
+
+	* initial code generated with kickstarter

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/TYPO3v4/Extensions/!svn/ver/1132/rlmp_tvnotes/branches/blabl
+END
+class.tx_rlmptvnotes_templavoilamod1.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/TYPO3v4/Extensions/!svn/ver/1132/rlmp_tvnotes/branches/blabl/class.tx_rlmptvnotes_templavoilamod1.php
+END
+ext_tables.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/TYPO3v4/Extensions/!svn/ver/1130/rlmp_tvnotes/branches/blabl/ext_tables.php
+END
+class.tx_rlmptvnotes_tcemain.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/TYPO3v4/Extensions/!svn/ver/1132/rlmp_tvnotes/branches/blabl/class.tx_rlmptvnotes_tcemain.php
+END
+de.locallang.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/TYPO3v4/Extensions/!svn/ver/1132/rlmp_tvnotes/branches/blabl/de.locallang.xml
+END
+ext_localconf.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/TYPO3v4/Extensions/!svn/ver/1130/rlmp_tvnotes/branches/blabl/ext_localconf.php
+END
+locallang_db.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/TYPO3v4/Extensions/!svn/ver/1130/rlmp_tvnotes/branches/blabl/locallang_db.php
+END
+ext_tables.sql
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/TYPO3v4/Extensions/!svn/ver/1130/rlmp_tvnotes/branches/blabl/ext_tables.sql
+END
+locallang.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/TYPO3v4/Extensions/!svn/ver/1132/rlmp_tvnotes/branches/blabl/locallang.xml
+END
+ext_icon.gif
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/TYPO3v4/Extensions/!svn/ver/1130/rlmp_tvnotes/branches/blabl/ext_icon.gif
+END
+icon_tx_rlmptvnotes_notes.gif
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/TYPO3v4/Extensions/!svn/ver/1130/rlmp_tvnotes/branches/blabl/icon_tx_rlmptvnotes_notes.gif
+END
+ext_emconf.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/TYPO3v4/Extensions/!svn/ver/1130/rlmp_tvnotes/branches/blabl/ext_emconf.php
+END
+tca.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/TYPO3v4/Extensions/!svn/ver/1130/rlmp_tvnotes/branches/blabl/tca.php
+END

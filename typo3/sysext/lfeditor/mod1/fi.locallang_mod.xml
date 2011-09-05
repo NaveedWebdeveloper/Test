@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index="mlang_labels_tabdescr">Tämä moduli tarjoaa useita funktioita kielitiedostojen muokkaamiseksi. Lisäosien tekijät voivat käyttää tätä lisäosaa omien lisäosiensa kielitiedostojen luomisessa.&lt;br /&gt;&lt;br /&gt;Tässä modulissa on seuraavat funtiot:&lt;br /&gt;&lt;br /&gt;  * formaatit: PHP ja XML&lt;br /&gt;  * kehittyneet syöttötyypit&lt;br /&gt;  * konversion PHP:stä XML:ään ja päinvastoin&lt;br /&gt;  * kielitiedostojen yhdistäminen/jakaminen (splitting/merging)&lt;br /&gt;  * työtilat  (lokaali/globaali (local/global) - lokaali vain taustakäyttömoduuleille)&lt;br /&gt;  * yksinkertainen kielten ja niiden vakioiden muokkaus&lt;br /&gt;  * joustavat etsintä ja vakioiden jan niiden arvojen näyttäminen&lt;br /&gt;  * metainformaation hallinta&lt;br /&gt;  * varmuustallennus, palautus ja diff-tiedostojen näyttäminen</label>
+			<label index="mlang_labels_tablabel">Kielitiedostojen muokkaus</label>
+			<label index="mlang_tabs_tab">LFEditor</label>
+		</languageKey>
+	</data>
+</T3locallangExt>

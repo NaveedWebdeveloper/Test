@@ -1,0 +1,88 @@
+/** top_menu_with_layers.css
+* --- Gosign media. ---
+* version 1.0
+* (c) Copyright 2008 Gosign media. All Rights Reserved.
+* 2008-24-01
+*/
+
+#nav, #nav ul {
+	position:relative;
+	float:left;
+	list-style:none;
+	background:#cc0000;
+}
+
+#nav a {
+	font-size:1em;
+	text-transform:uppercase;
+	display:block;
+	color:#f8eede;
+	text-decoration:none;
+	text-align:center;
+	padding:5px 20px 4px 15px;
+	border-color:#F8EEDE;
+	border-style:none solid none none;
+	border-width:0 1px 0 0;
+	font-weight:bold;
+	min-height:0; /* IE7 whitespace-bug - hasLayout */
+}
+
+#nav a:hover{
+	background:#AA0000;
+}
+
+#nav li.act {
+	background-color:#742B25;
+}
+
+#nav ul li.menuparent  {
+	background:url(../images/topmenu_act.gif) no-repeat 90% 50%;
+	background-color:#AA0000;
+}
+
+#nav li {
+	float:left;
+	width:auto;
+}
+
+#nav li ul {
+	position:absolute;
+	left:-999em;
+	height:auto;
+	width:16em;
+	font-weight:normal;
+}
+
+#nav li li {
+	clear:left;
+	width:16em
+}
+
+#nav li ul a {
+	font-size:1em;
+	text-transform:none;
+	text-align:left;
+	border-color:#F8EEDE;
+	border-style:solid solid none solid;
+	border-width:1px 1px 0 1px;
+}
+
+#nav li ul a:hover {
+	background:#990000;
+}
+
+#nav li ul ul {
+	margin:-1.3em 0 0 14em;
+}
+
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {
+	left:-999em;
+}
+
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul {
+	left:auto;
+}
+
+#nav li:hover, #nav li.sfhover {
+	position:relative;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description></description>
+        <type>module</type>
+        <csh_table></csh_table>
+        <fileId>EXT:dam_catedit/mod_cmd/locallang.xml</fileId>
+        <labelContext type="array">
+            <label index="tx_damcatedit_cmd_nothing.title"></label>
+            <label index="tx_damcatedit_cmd_nothing.message"></label>
+            <label index="tx_damcatedit_cmd_new.title"></label>
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="tx_damcatedit_cmd_nothing.title">[no command]</label>
+            <label index="tx_damcatedit_cmd_nothing.message">There's no command given to this module.</label>
+            <label index="tx_damcatedit_cmd_new.title">Create new category</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+    </data>
+    <orig_hash type="array">
+        <languageKey index="default" type="array">
+            <label index="tx_damcatedit_cmd_nothing.title" type="integer">72590348</label>
+            <label index="tx_damcatedit_cmd_nothing.message" type="integer">65945249</label>
+            <label index="tx_damcatedit_cmd_new.title" type="integer">243139682</label>
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+    </orig_hash>
+    <orig_text type="array">
+        <languageKey index="default" type="array">
+        </languageKey>
+        <languageKey index="de" type="array">
+        </languageKey>
+    </orig_text>
+</T3locallang>

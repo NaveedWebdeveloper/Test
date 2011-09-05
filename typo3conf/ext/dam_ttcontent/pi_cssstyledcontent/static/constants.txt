@@ -1,0 +1,5 @@
+
+styles.content.imgtext {
+    # cat=content/cImage/c; type=boolean; label= DAM Images, captions: If this is checked, then each image will get a caption from DAM meta data. If not checked, images will get caption from Caption field if set.
+  captionEach = 1
+}

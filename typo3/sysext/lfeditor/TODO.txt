@@ -1,0 +1,97 @@
+LFEditor V1.0
+DONE :: Info ueber Dateien: Herkunftsort der Sprache (Datei) + weitere Informationen
+DONE :: PHP und XML-Einlesefunktionen mit Support für gesplittete Dateien
+DONE :: schreiben von XML- und PHP-Dateien mit Support von gesplitteten Dateien
+DONE :: Auswahl von Extension und Sprachdatei
+DONE :: Ermöglichen von Backups (Speicherung im XML-Format mit Meta-Datei)
+DONE :: Anzeige von Änderungen von Backup zu Original
+DONE :: Wiederherstellungsfunktion eines Backups
+DONE :: Auto-delete von alten Backups ermöglichen (Konfiguration: max. erlaubte Anzahl einstellbar)
+DONE :: löschen von Backups
+DONE :: hinzufügen, löschen, umbenennen und editieren von Konstanten
+DONE :: editieren von Sprachdateien
+DONE :: Speicherortvergabe fuer Lokalisierungen im allgemeinen Menü
+DONE :: Suche nach Werten von Konstanten
+DONE :: Baumansicht fuer strukturierte Sprachkonstanten
+DONE :: schreiben und lesen mit XLL-Support
+DONE :: Workspace-Idee XLL/Original
+DONE :: kopieren von kompletten Sprachen zu XLL
+DONE :: deutsche und englische Übersetzung, Dokumentation, Funktionsindex
+
+LFEditor V2.0
+DONE :: komplette Integration beider Workspaces (lokal und global)
+DONE :: Integration eines WYSIWIG-Editors
+DONE :: Aufteilung der Dateibearbeitung in Seiten (vor- und zurückblättern)
+DONE :: Auswahlfeld zur Anzeige von speziellen Konstanten in der Dateibearbeitung
+DONE :: mehr Information über Konstanten und Verbindung dieser in der allgemeinen Funktion
+DONE :: komplette Überarbeitung der CSS-Datei (neues Look and Feel)
+DONE :: Verbesserung der Performance des Konstantenbaumes (Fazit: ~300%)
+DONE :: Integration eines dynamischen Explode-Tokens in den Konstantenbaum
+DONE :: Integration einer Referenzsprachauswahl im Konstantenbaum zur Anzeige der Konstantentypen
+DONE :: Integration von Auf- und Zuklapp-Buttons für den Konstantenbaumm
+DONE :: Rewrite großer Bereiche des Codes für Stabilität, Performance, Wartbarkeit
+DONE :: Verwendung von PHP5+ (keine Abwärtskompatibilität)
+DONE :: Verhalten der Rename- und Delete-Methode verändert zur Vermeidung von Fehlern
+DONE :: Dokumentation(+Screenshots und Konfiguration), Übersetzungen aktualisieren
+DONE :: Integration einer dänischen Übersetzung (meinen Dank an Peter Klein)
+DONE :: zahlreiche kleinere Verbesserungen (z.B. case-insensitive search)
+DONE :: Erstellung einer stabilen Version (Bugfixes, Bugfixes, Bugfixes)
+
+LFEditor V2.5
+DONE :: Eingabeswitch zwischen einfachen Texteingabebereichen und tinyMCE
+DONE :: Verwaltung von Meta-Informationen
+DONE :: Unterstützung für Typo3 4.0 (Ablage der Spracherweiterungen in typo3conf/l10n/<langKey>)
+DONE :: CSS-Handling betreffend der unterschiedlichen Skins
+DONE :: Reorganisation des XHTML-Contents unter Verwendung von bigDoc
+DONE :: Integration von pmk_textarea
+DONE :: parallele Bearbeitung zweier Sprachdateien (Sprache und Vorlage)
+DONE :: Erfolgsnachrichten (Fehler[rot], Notiz[blau], Ok[grün])
+DONE :: Export aller Sprachdateien einer Extension in Zip-Datei + Email an Author
+DONE :: Korrekturen am lokalen Workspace
+DONE :: Dokumentation (+Konfiguration), aktualisieren und überarbeiten
+DONE :: $GLOBALS verwenden, "lfeditor." in labels entfernen
+DONE :: tinyMCE auslagern
+DONE :: zahlreiche kleinere Verbesserungen (z.B. direkte Konstanteneingabe beim Hinzufügen)
+DONE :: Bugfixes, Bugfixes, Bugfixes...
+
+LFEditor V3.0
+:: Konstantenbaum als Frame links vom Inhalt (wie bei dam)
+:: merken des ausgeklappten Status in einem Cookie oder DB
+:: Kontextmenü für Konstantenbaum
+   :: Konstante verschieben wie bei der Seitenansicht
+   :: Konstante löschen (nur bei Konstanten)
+   :: neue Konstante... (nur bei Knoten)
+   :: Konstante umbenennen (bei beiden ermöglichen)
+      :: ergibt neue Funktion der Massenumbenennung von Konstanten
+   :: Konstante editieren (nur bei Konstanten) ... ebenfalls einfacher Klick
+   :: Ergebnisse der Hilfe immer in neuem Fenster
+   :: alte Funktionen herausnehmen, da alles über den Konstantenbaum machbar wird
+:: neues Diff-Merge-System
+   :: Anzeige von Unterschieden zwischen Base und XLL
+   :: Anzeige von Unterschieden zwischen 2 Sprachdateiversionen
+   :: Anzeige von Änderungen bei Import von Sprachdateien aus externen Quellen
+   :: Nutzung des Codes für Backup-Diff
+   :: Mergen von Änderungen (Wahl von kompletten Sprachen oder Konstanten)
+:: Datenkonvertierung nach UTF8 nur mit gewünschter Sprache vornehmen (per Anfrage)
+:: Import von Exportdateien mit Auswahl bestimmter Konstanten/Sprachen
+:: Informationsansicht (ermöglicht bessere Implementierung bestimmer Dinge)
+   :: erste Seite -- Auswahl der Sprachdatei wie Sprache
+   :: zweite Seite -- Auswahl der Sprache
+:: Protokollierung von Stringänderungen (echtes fuzzy handling)
+   :: ausgehend vom letzten Backup (?)
+:: Suche: AJAX verwenden (automatische Suche während Eingabe)
+:: Auswahlwerkzeug zur Übernahme bestimmter Konstanten in den lokalen Workspace
+:: erweiterter Exportmodus für alle Sprachdateien
+
+LFEditor V4.0
+:: Backup-XML und locallang.xml über DOM (PHP5)
+:: Verwaltung fuer Uebersetzer (Teams, Leiter, Assistenten)
+   :: Informationen ueber Sprache und Kodierung einstellbar
+   :: Workflow (alle Aenderungen muessen vom Teamleiter freigegeben werden)
+      :: keine direkte Speicherung der Aenderungen der Assistenten (ähnlich Backup)
+   :: Rechteverwaltung (jeder Assistent erhält spezifische Rechte zur Funktionsfilterung)
+      :: eventuell Integration in den
+
+LFEditor V5.0 (???)
+:: editieren von Sprachdateien als Frontend-Erweiterung verfügbar
+   :: Rechte der BE-User beibehalten (falls möglich) oder anonymous-Funktion, wie Wikipedia

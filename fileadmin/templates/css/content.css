@@ -1,0 +1,80 @@
+/** content.css
+* --- Gosign media. ---
+* version 1.0
+* (c) Copyright 2008 Gosign media. All Rights Reserved.
+* 2008-24-01
+*/
+p {
+	margin-bottom:0.2em;
+}
+
+
+
+
+
+
+h1,h1,h2,h3,h4,h5,h6 {
+	font-size:1.6em;
+	text-align:center;
+	padding:1em 0 1em 0;
+}
+
+#middle_column_heading{
+	border-bottom:1px solid #FFCC66;
+	margin-bottom:1.2em;
+}
+
+
+h1.contentheading {
+	text-align:center;
+	width:90%;
+}
+.buttonheading {
+	float:right;
+	position:relative;
+	top:-18px;
+}	
+
+#pdf_button {
+	padding-left:10px;
+}
+
+
+#left_content h1, h2, h3, h4, h5{
+	font-size:1em;
+	font-weight:bold;
+}
+
+div.tx-gofontsize-pi1{
+	float:left;
+	background-color:#CC0000;
+	border-left:0.6em solid #CC0000;	
+}
+
+div.tx-gofontsize-pi1 a{
+	color:#ffffff;	
+	margin-right:0.4em;	
+}
+
+div.tx-gofontsize-pi1 a .fontsize_inc{
+	font-size:1.2em;
+}
+div.tx-gofontsize-pi1 a .fontsize_base{
+	font-size:1.4em;
+}
+div.tx-gofontsize-pi1 a .fontsize_dec{
+	font-size:1.6em;
+}
+
+#contentMiniCal{
+	margin-top:40px;
+	background:#ff00ff;
+}
+
+
+div.csc-textpic-center div.csc-textpic-text{
+	
+	margin-top:20px;
+		
+}
+

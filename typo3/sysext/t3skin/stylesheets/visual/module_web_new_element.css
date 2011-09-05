@@ -1,0 +1,13 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+New Record Wizard
+
+$Id: module_web_new_element.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+body#typo3-db-new-php a {
+	text-decoration: none;
+}
+
+body#typo3-db-new-php img.c-helpImg {
+	text-align: right;
+}

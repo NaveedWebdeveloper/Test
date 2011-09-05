@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description></description>
+		<type>module</type>
+		<csh_table></csh_table>
+		<fileId>EXT:dam/modfunc_tools_config/locallang.xml</fileId>
+		<labelContext type="array">
+			<label index="tx_dam_tools_indexsetup.title"></label>
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_dam_tools_config.title">Configuration</label>
+			<label index="tx_dam_tools_config.showConfig">Show configuration:</label>
+			<label index="tx_dam_tools_config.merged">merged (used by system)</label>
+			<label index="tx_dam_tools_config.all">seperated by source</label>
+		</languageKey>
+	</data>
+</T3locallang>

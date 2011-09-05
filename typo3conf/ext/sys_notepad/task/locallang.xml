@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>Translation of extension sys_notepad</description>
+        <type>module</type>
+        <csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="note_helpText">The Quick Note is your personal notepad in TYPO3. Nobody else sees it and it's intended to be a place for you to drop short reminder notes which relates to your work in TYPO3.</label>
+            <label index="mod_note">Quick Note</label>
+            <label index="update">Update</label>
+            <label index="reset">Reset</label>
+            <label index="success.message">The note has been saved</label>
+			<label index="remember_password">Do you remember the used password? There is no chance to retrieve your notes without it!</label>
+        </languageKey>
+        
+        <languageKey index="dk" type="array">
+            <label index="note_helpText">The Quick Note is your personal notepad in TYPO3. Nobody else sees it and it's intended to be a place for you to drop short reminder notes which relates to your work in TYPO3.</label>
+            <label index="mod_note">Quick Note</label>
+        </languageKey>
+
+    </data>
+
+  
+</T3locallang>

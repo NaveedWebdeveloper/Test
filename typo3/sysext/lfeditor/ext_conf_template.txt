@@ -1,0 +1,59 @@
+## general informations
+
+# cat=basic; type=string; label=view languages: Please enter a list of languages do you like to edit (only the short name). Let this field empty if you want to view all languages (Warning: very long list!). Please note that the default language is always included.
+viewLanguages =
+
+# cat=basic; type=boolean; label=view local extensions: view local extensions
+viewLocalExt = 1
+
+# cat=basic; type=boolean; label=view global extensions: view global extensions
+viewGlobalExt = 0
+
+# cat=basic; type=boolean; label=view system extensions: view system extensions
+viewSysExt = 0
+
+# cat=basic; type=integer; label=view loaded and unloaded extensions: Please enter 0 for all extensions, 1 for loaded extensions and 2 for unloaded extensions.
+viewStateExt = 1
+
+# cat=basic; type=integer; label=depth of searching language files: Please enter the maximum recursive path for language file searching. Let this value at 0 if you want an infinite recursive depth.
+#searchPathDepth = 0
+
+# cat=basic; type=string; label=search regex for languagefiles: Please modify the regular expression to limit the language file list.
+#searchRegex = /^[a-z0-9_]*locallang[a-z0-9_]*\.(php|xml)$/i
+
+# cat=basic; type=string; label=ignore extensions: Please modify the regular expression to limit the extension key list.
+extIgnore = /^csh_.*$/
+
+# cat=basic; type=integer; label=maximal amount of backup files: Set this value to zero if you like to keep all files else all old files will be deleted unto the given amount.
+anzBackup = 5
+
+# cat=basic; type=integer; label=amount of rows in text area: Please enter the amoung of rows you want in a normal textarea. This feature isnt supported if you use tinyMCE.
+numTextAreaRows = 5
+
+# cat=basic; type=integer; label=constants per site in language file edit mode: Please enter the amount of constants per site in the language file edit mode. This value has no influence if you use parallel edit or not.
+numSiteConsts = 6
+
+# cat=basic; type=boolean; label=Set to true if you want to hide the tree branches at start of the tree page.
+treeHide = 1
+
+## enable features
+
+# cat=basic/enable; type=boolean; label=enable backup: Set to true if you want enable the backup management (highly recommended)
+execBackup = 1
+
+## file configuration
+
+# cat=basic/file; type=string; label=backup directory: path to the backup directory
+pathBackup = typo3conf/LFEditor/Backup/
+
+# cat=basic/file; type=string; label=xll files directory: path to the xll files directory
+pathXLLFiles = typo3conf/LFEditor/XLL/
+
+# cat=basic/file; type=string; label=backup meta information file: location of the backup meta information file
+metaFile = typo3conf/LFEditor/Backup/Meta.xml
+
+# cat=basic/file; type=string; label=tinyMCE config file: path and filename to the tinyMCE config file (begin at TYPO3 root)
+#pathTinyMCEConfig = EXT:lfeditor/mod1/tinyMCEConfig.js
+
+# cat=basic/file; type=string; label=CSS file: path and filename to the CSS file (begin at TYPO3 root)
+#pathCSS = EXT:lfeditor/mod1/tx_lfeditor_mod1_css.css

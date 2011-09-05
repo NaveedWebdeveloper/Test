@@ -1,0 +1,1 @@
+﻿PAGE_TARGET = _self

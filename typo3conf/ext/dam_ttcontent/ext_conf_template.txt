@@ -1,0 +1,8 @@
+  # cat=basic/enable; type=boolean; label=DAM for Text w/image and Image: Enable DAM reference field for the content types "Text w/image" and "Image".
+ctypes_textpic_image_add_ref = 1
+  # cat=basic/enable; type=boolean; label=Keep original media fields: Enable original file field for the content types "Text w/image" and "Image" as second image field.
+ctypes_textpic_image_add_orig_field = 1
+  # cat=basic/enable; type=boolean; label=Alternative CSS Styled Rendering: Enable alternative rendering for css_styled_content to.
+add_css_styled_hook = 1
+  # cat=basic/enable; type=boolean; label=Workspace module modifications: Enable modifications to the workspace module (XCLASS) to enable the display of thumbnails for reference fields.
+add_ws_mod_xclass = 1

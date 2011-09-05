@@ -1,0 +1,49 @@
+# *****************
+# CType: image
+# *****************
+# (also used for rendering 'textpic' type):
+
+tt_content.image.20 {
+	1 {
+	
+		// TODO
+		longdescURL < .altText
+		longdescURL.field = longdescURL
+			
+		altText >
+		altText = TEXT
+		altText.data = field : txdam_alt_text // field : altText
+#		altText.data = field : altText // field : txdam_alt_text
+
+		titleText >
+		titleText = TEXT
+		titleText.data = field : txdam_title // field : titleText
+#		titleText.data = field : titleText // field : txdam_title
+	}
+
+	captionEach = {$styles.content.imgtext.captionEach}
+	caption {
+		1 = TEXT
+		1 {
+			field >
+			data = field : txdam_caption // field : txdam_description
+			required = 1
+			parseFunc =< lib.parseFunc
+			wrapAlign.field = imagecaption_position
+			split >
+		}
+		1.if.isTrue = {$styles.content.imgtext.captionEach}
+		
+		2 = TEXT
+		2 {
+			field = imagecaption
+			required = 1
+			parseFunc =< lib.parseFunc
+			wrapAlign.field = imagecaption_position
+			split.token.char = 10
+			split.token.if.isPositive = {$styles.content.imgtext.imageTextSplit} + {$styles.content.imgtext.captionSplit}
+			split.returnKey.data = register : IMAGE_NUM_CURRENT
+		}
+		2.if.isFalse = {$styles.content.imgtext.captionEach}
+	}
+}

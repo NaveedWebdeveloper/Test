@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'go_tsconfig'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pages.tx_gotsconfig_robots">Robots:</label>
+			<label index="pages.tx_gotsconfig_robots.0">nothing</label>
+			<label index="pages.tx_gotsconfig_robots.1">index, follow</label>
+			<label index="pages.tx_gotsconfig_robots.2">noindex, follow</label>
+			<label index="pages.tx_gotsconfig_robots.3">index, nofollow</label>
+			<label index="pages.tx_gotsconfig_robots.4">noindex, nofollow</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pages.tx_gotsconfig_robots">Robots:</label>
+			<label index="pages.tx_gotsconfig_robots.0">keine Angabe</label>
+			<label index="pages.tx_gotsconfig_robots.1">index, follow</label>
+			<label index="pages.tx_gotsconfig_robots.2">noindex, follow</label>
+			<label index="pages.tx_gotsconfig_robots.3">index, nofollow</label>
+			<label index="pages.tx_gotsconfig_robots.4">noindex, nofollow</label>
+		</languageKey>
+	</data>
+</T3locallang>

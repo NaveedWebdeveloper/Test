@@ -1,0 +1,581 @@
+27-09-07 Stefan Galinski  <stefan.galinski@gmail.com>
+	* 2.6.2: added "-" sign to the prefix of the locallang regular expression
+	* 2.6.2: fixed some php warnings
+	* 2.6.2: fixed broken error message
+
+05-09-07 Stefan Galinski  <stefan.galinski@gmail.com>
+	* 2.6.1: removed search related and css/tinymce configuration options
+	* 2.6.1: removed undo/redo buttons in tinymce module
+	* 2.6.1: some small changes
+
+05-05-07 Stefan Galinski  <stefan.galinski@gmail.com>
+	* 2.6.0: moved extension to user module
+
+15-03-07 Stefan Galinski  <stefan.galinski@gmail.com>
+	* 2.5.1: added finnish translation (Thanks to Tapio Markula)
+	* 2.5.1: small css updates
+	* 2.5.1: some small cleanups and translation changes
+
+11-10-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: added updated documentation
+	* 2.5.0: added new section constants into the documentation
+	* 2.5.0: changed view of entry in backup mode if the original file cant be found
+	* 2.5.0: changed module description, updated dk module description (just english)
+	* 2.5.0: removed wizard files in doc dir
+	* 2.5.0: renamed fuzzy to unknown
+	* 2.5.0: cleaned up version requirements
+	* 2.5.0: cleanups and small improvements
+
+09-10-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: fixed small globals issue
+	* 2.5.0: fixed some problems with session editing
+	* 2.5.0: fixed problems with tinyMCE and entities
+	* 2.5.0: cleanup of session editing stuff and js files
+
+07-10-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: fixed CSS path bug
+	* 2.5.0: usage of $GLOBALS instead of global
+	* 2.5.0: removed prefix "lfeditor" of each language label
+
+06-10-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: integration of new tinyMCE extension
+	* 2.5.0: changed some path default values
+	* 2.5.0: cleaned up the configuration
+	* 2.5.0: removed tinyMCE (reduced size to ~776kib from ~1636kib)
+
+27-09-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: fixed major bug: problem with slashes and loosing of data
+
+25-09-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: small cleanup
+	* 2.5.0: added new prevention method for horizontal scrolling with pmktextarea
+
+18-09-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: fixed display error with IE
+	* 2.5.0: fixed problems with languages in tinyMCE (restricted languages to dk, en and de)
+
+26-08-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: added fix to disable horizontal resizing in pmk_textarea
+	* 2.5.0: added updated danish and english translation (Thanks to Peter Klein)
+	* 2.5.0: fixed some small issues
+
+18-08-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: added new ext_icon.gif
+	* 2.5.0: added small improvements to pmktextarea integration
+	* 2.5.0: updated extension dependencies
+
+15-08-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: added method which removes double slashes in file paths
+	* 2.5.0: added saving of xll definitions in both formats (localconf entries)
+	* 2.5.0: fixed minor bug: image path change in javascript tree function corrected
+	* 2.5.0: fixed minor bug: false success message after diff creation
+	* 2.5.0: fixed minor bug: optical issue if a language origin doesnt exist
+	* 2.5.0: fixed major bug: cant create new files for local workspace
+	* 2.5.0: fixed major bug: bad backpath prevents loading of xll files in TYPO3
+	* 2.5.0: cleanup of search function (more intuitive look&feel)
+	* 2.5.0: some small changes and cleanups
+
+13-08-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: update of extension description
+	* 2.5.0: added new module icon
+	* 2.5.0: added relation of split, merge and l10n options to the current type (view)
+	* 2.5.0: removed fileArchive stuff (PEAR is really useless)
+	* 2.5.0: added zip library from phpMyAdmin
+	* 2.5.0: added zipping of language files
+	* 2.5.0: added email address of the extension author to the meta informations
+	* 2.5.0: changed default save paths for backup and xll
+	* 2.5.0: added sending of email to the extension author (includes zipped file)
+	* 2.5.0: added unicode send mail function and improved download function to sgLib
+	* 2.5.0: fixed minor bug: long legend names break design
+	* 2.5.0: fixed minor bug: success message in language file edit function after next/prev
+	* 2.5.0: some small changes and cleanups
+
+12-08-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: added notice messages (changed some error messages to this type)
+	* 2.5.0: added success messages
+	* 2.5.0: added parallel editing in language file editing function
+	* 2.5.0: added some informations at the language file edit function
+	* 2.5.0: added cancel button into language file edit function
+	* 2.5.0: added skin related background colors to pmktextarea
+	* 2.5.0: added diff image instead of simple upper case char in backup function
+	* 2.5.0: removed "add buttons after this constants amount" feature
+	* 2.5.0: retranslated lots of constants and revised ext_emconf_template
+	* 2.5.0: fixed minor bug: no error message at access denied
+	* 2.5.0: fixed minor bug: no error message check only if a constant is given
+	* 2.5.0: fixed tinyMCE height problem
+	* 2.5.0: some small changes and cleanups
+
+09-08-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: added fileArchive class (needed for coming zip stuff)
+
+07-08-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: fixed bug wich prevents the normal resizer from loading if pmk_textarea is used
+	* 2.5.0: implemented support of new pmktextarea version
+	* 2.5.0: fixed minor bug: check if the new constant already exists doesnt work
+	* 2.5.0: removed necessary to set the constant first before we can add content
+	* 2.5.0: minor cleanups
+
+06-08-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: usage of bigDoc instead of mediumDoc
+	* 2.5.0: many reorganizations of xhtml code
+	* 2.5.0: fixed major bug: reset button isnt a submit button now
+	* 2.5.0: fixed minor bug: added identify string in localconf write function
+	* 2.5.0: added Id keyword to all php files
+	* 2.5.0: support for IE7, some css cleanups and minor improvements
+	* 2.5.0: fixed major l10n problem
+	* 2.5.0: integration of pmktextarea (enable-tabs...)
+	* 2.5.0: added generator information into LFEditor
+	* 2.5.0: added suggest of pmktextarea
+
+05-08-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: added reading of l10n files
+	* 2.5.0: added writing of l10n files
+	* 2.5.0: added history/backup management of l10n files
+	* 2.5.0: small improvements in general function
+	* 2.5.0: added setting of new l10n files
+	* 2.5.0: fixed critical failure: deleting of main file after restoring of file locations
+	* 2.5.0: sort constants before writing of language files
+	* 2.5.0: added full usage of skin related background colors and css cleanups
+	* 2.5.0: some very minor changes
+
+30-07-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: added meta informations into xll files
+	* 2.5.0: added meta information history (enhanced backup)
+	* 2.5.0: fixed long time broken backup saving routine :(
+	* 2.5.0: nicer saving of meta informations
+	* 2.5.0: changes in look&feel (better looking with different skins)
+
+13-07-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: added type and csh_table to meta informations
+	* 2.5.0: fixed problem with tinyMCE and newlines (br and \n)
+
+12-07-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: added saving of header informations in php and xml
+	* 2.5.0: fixed block in transforming from xml to php (some broken code)
+
+01-07-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: fixed problem with # chars in constant names
+	* 2.5.0: some css changes
+	* 2.5.0: fixed opera9 and tinyMCE
+
+21-06-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: added css from resizer to general css definition files
+	* 2.5.0: added formular dialog for editing of header informations (currently only comments)
+	* 2.5.0: fixed some small opera9 css problems (new supported browser)
+	* 2.5.0: added opera9 to tinyMCE ignore list (worst release ever of this browser)
+	* 2.5.0: minor cleanups and removal of obsolet code
+
+18-06-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: implemented tinyMCE switch
+	* 2.5.0: cleanup and some bugfixes in resizing code
+	* 2.5.0: removed lots of css in resizing code
+
+16-06-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: removed some unnecessary stuff from tinyMCE (src file and licence text)
+	* 2.5.0: added usage of typo3 to iso replacement stuff for tinyMCE (used iso codes)
+
+15-06-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: implemented more structure into the configuration menu
+	* 2.5.0: removed error wrap configuration
+	* 2.5.0: added multilanguage into tinyMCE for de, dk and en (thanks to Peter Klein)
+
+13-06-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: integrated resizing of textareas (great thanks to Peter Klein)
+	* 2.5.0: added resizing to tinyMCE
+	* 2.5.0: added some browser turnouts for tinyMCE with konqueror and opera (disable)
+	* 2.5.0: fixed bug with some special php configurations
+
+11-06-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: updated todo
+
+08-06-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.5.0: removed lots of unnecessary plugins and themes of tinyMCE
+
+07-06-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* Release: LFEditor 2.0.2 (stable)
+	* 2.0.2: fixed problems with quoted slashes
+	* 2.0.2: fixed problem with session constant counter (edit language file)
+	* 2.0.2: fixed problem with saving constants in untranslated mode (edit language file)
+
+23-05-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0.2: changed default behavior of tinyMCE in fullscreen mode (same buttons like normal mode)
+
+22-05-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* Release: LFEditor 2.0.1 (stable)
+	* 2.0.1: fixed search of loaded and unloaded extensions
+	* 2.0.1: fixed newline bug in extension selection field
+
+21-05-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* Release: LFEditor 2.0 (stable)
+	* 2.0: added new documentation
+
+20-05-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: added different css file for new t3skin
+	* 2.0: added utf-8 encoding/decoding if you use utf-8 mode in BE (php files)
+	* 2.0: updated german translation
+	* 2.0: updated tinyMCE to version 2.0.6.1 and compressor to version 1.0.8
+
+16-05-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: updated todo list
+	* 2.0: fixed some xclass issues
+	* 2.0: updated module icon
+
+15-05-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: fixed bug with typo3 utf8 setting and xml files
+	* 2.0: updated danish translation (thanks to Peter Klein)
+
+01-05-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: moved some methods to function class
+	* 2.0: fixed restore bug, that deletes all localized files
+	* 2.0: removed some uneccessary methods
+	* 2.0: removed function which set new file origins for xml
+	* 2.0: removed split/merge options menu in xll workspace (in general informations function)
+	* 2.0: added method for writing of localconf file
+	* 2.0: backup localconf file before writing
+	* 2.0: fixed some converting problems with xll files
+	* 2.0: fixed backuping of original file if converting was used
+	* 2.0: updated functions index to empty values (extdeveval is not php5 compatible)
+
+19-04-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: great cleanup of todo
+
+18-04-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: added try...catch... into file classes
+	* 2.0: lots of minor cleanups and changes
+	* 2.0: added try...catch.. into backup class
+
+17-04-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: added try...catch... into sgLib
+	* 2.0: cleanups in sgLib (replaced deleteFile, documentation fixes, some code enhancements)
+	* 2.0: added some subversion properties
+
+16-04-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: added try...catch... into typo3Lib
+	* 2.0: fixed bad validation code for local workspace (xll)
+	* 2.0: minor cleanups
+	* 2.0: moved trimPath from typo3Lib to sgLib
+	* 2.0: cleaned danish translation file
+
+15-04-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: added try...catch... into general functions library
+	* 2.0: cleanup of extension list generation (performance)
+
+14-04-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: renamed tidyMCE default configuration file
+	* 2.0: moved javascript into an extra file
+
+12-04-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: fixed further gap in fieldsets with internet explorer
+	* 2.0: added function that trims some string from a path
+	* 2.0: usage of new backup class
+	* 2.0: delete file after deletion of last constant of a language
+	* 2.0: better error handling for backup function
+	* 2.0: new function deleteFiles()
+	* 2.0: save session based editing dont throw you at the beginning of the list
+
+11-04-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: implemented get and set methods for the new backup class
+	* 2.0: implemented new backup class (replaces another one)
+	* 2.0: added better read file splitting (performance)
+	* 2.0: very minor cleanups and removed delete file from general file class (never used)
+
+10-04-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: fixed pixel gaps in constant tree
+	* 2.0: some minor improvements in tree view generation
+
+09-04-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* new todo list (added version 2.5)
+	* 2.0: updated danish translation (thanks to Peter Klein)
+	* 2.0: changed layout of delete constant function
+	* 2.0: added some changes to default tinyMCE configuration
+	* 2.0: added custom cleanup function to default tinyMCE configuration
+	* 2.0: some cleanups in the translation (english and german)
+	* 2.0: checkbox to select case-insensitive or case-sensitve search
+	* 2.0: moved tinyMCE configuration to an external configuration file
+
+06-04-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: new CSS look and feel
+
+05-04-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: fixed fieldset css problem with internet explorer
+	* 2.0: added new table design with tfoot, thead and tbody
+
+31-03-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: splitted readFile method into different methods (performance)
+
+30-03-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: implemented setVar and getVar methods (all instanceVars are now protected)
+	* 2.0: fixed treeview regression
+
+29-03-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: added base workspace abstraction
+	* 2.0: rewrited split file implementation
+	* 2.0: removed prerequisite of php >= 5.1 (pearl-package: phpCompat)
+	* 2.0: some minor corrections/cleanups
+	* 2.0: splitted locallang_mod.xml (all own language files are now splitted)
+
+28-03-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: added setFileExtension/getFilExtension Methods
+	* 2.0: fixed major bug if you transform to xml AND split or merge files
+	* 2.0: fixed reinitialisation of file object after split or merge files
+	* 2.0: fixed return value in transforming function (xll specific part)
+	* 2.0: changed size of constant input field to 30 (function add constant)
+	* 2.0: upgraded tinyMCE to version 2.0.5.1 with gzip compression 1.0.8 (only in english; -18MiB)
+	* 2.0: fixed printing of special chars in section name (section use htmspecialchars)
+	* 2.0: now only constants from the pattern language would be taken (edit language files)
+	* 2.0: added new selection field in edit language file to display only some special constant
+		  types (all, fuzzy, translated or untranslated)
+	* 2.0: fixed adding of constant if constant selected and add set constant clicked (add constant)
+	* 2.0: splitted own language files
+	* 2.0: released new development version
+
+27-03-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: added set/get methods for localLang and originLang
+	* 2.0: fixed regression in set new origin of files
+	* 2.0: added workspace identifier to file class
+	* 2.0: only display option split files if basic workspace is selected
+	* 2.0: display type = xll in general informations if workspace xll is selected
+	* 2.0: added deletion of old files if file path of an localized language file changed (only xml)
+	* 2.0: fixed invalid error message if you transform xml splitted to xml merged (regression)
+	* 2.0: repaired transforming between file formats (+cleanup)
+	* 2.0: implemented transformation of xll files
+	* 2.0: fixed empty extension name in php header (only xll); extended header
+	* 2.0: renamed base and xll to global and local (xll and base are used intern)
+
+26-03-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: splitted xll to own files
+	* 2.0: tons of cleanups (removed xll references and other stuff)
+	* 2.0: lots of inline documentation fixes
+	* 2.0: changed header from php files (includes now the extKey)
+	* 2.0: fixed some inconsistencies in function getExplodeToken()
+	* 2.0: removed copyToXLL (will be replaced by a better solution)
+	* 2.0: added error message in language file edit function if a empty pattern language is selected
+	* 2.0: added xll support to all current functions (excludes splitting and converting)
+	* 2.0: renamed all file classes (its now the final solution)
+
+25-03-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: fixed problem with empty arrays in edit language file
+	* 2.0: fixed regression with copying language data to xll
+	* 2.0: some cleanups for meta handling (backup)
+	* 2.0: added workspace node around each langFile node in metaXML (backup)
+	* 2.0: enabled backuping of xll
+	* 2.0: fixed warning in treeview with xll
+
+21-03-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: removed possible failure with file_exists
+	* 2.0: removed interface for abstract methods (can be protected)
+
+19-03-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: added reverse mode in session edit mode
+	* 2.0: fixed that forward and previous buttons only displayed if they necessary
+	* 2.0: added possiblity to let multiple users edit the same language file (needed in later versions)
+	* 2.0: fixed some xclass regressions
+	* 2.0: added new configuration option (size of textareas)
+	* 2.0: added full screen option to tinyMCE (+some configuration options)
+
+18-03-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: changed behavior of addButtons method (integration of js abilities)
+	* 2.0: session based language file edit mode (only forward mode)
+	* 2.0: changes in configuration options (tinyMCE is now default and added maxSiteConstants)
+	* 2.0: upgraded tinyMCE to version 2.0.4 with actual gzip compression
+
+16-03-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: added throws keywords to inline documentation
+	* 2.0: fixed docBlocks in inline documentation
+	* 2.0: removed method sgLib::readFile
+
+15-03-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: renamed myLib and myException; cleaned up both files a bit
+	* 2.0: replaced sgLib::readFile with file_get_contents
+
+09-03-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: third part of code refactoring to php5 (try...catch...)
+	* 2.0: minor cLeanups and improved error handling in some functions
+	* 2.0: lots of tests and regression fixes
+	* 2.0: complete refactoring of moduleContent()
+	* 2.0: fixed problem with delete in all languages
+	* 2.0: renaming of file classes and error file = class
+
+08-03-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: changed error class to extended exception class (myException)
+	* 2.0: second part of code refactoring to php5 (try...catch...)
+	* 2.0: minor cleanups and improved error handling in some functions
+
+07-03-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: first part of code refactoring to php5 (constructor, interfaces)
+	* 2.0: fixed regression in all redirects
+
+06-03-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: some code preparations and cleanups
+
+25-02-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: linked language rows in general function to constant tree
+	* 2.0: fixed regression with writing xll informations
+	* 2.0: fixed printing of error messages
+	* 2.0: changed behavior of rename and delete function
+	* 2.0: added selection of reference language in general functions
+	* 2.0: extended language informations in general function
+	* 2.0: some cleanups and html strict fixes
+
+24-02-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: merged new danish translation (thanks to Peter Klein)
+	* 2.0: added code to see untranslated constants more easily in edit langfile
+	* 2.0: fixed problem that you cant edit empty languages
+	* 2.0: added marking of constant type in constant tree (translated, untranslated, fuzzy)
+	* 2.0: added untranslated constants from reference language in constant tree
+	* 2.0: further cleanups and performance fixes in constant tree
+	* 2.0: fixed problem with pixel gap in constant tree
+
+23-02-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: major cleanup of index.php (readability)
+	* 2.0: merged danish translation (thanks to Peter Klein)
+	* 2.0: first char of a fitting translation constant is now used as table header single chars
+	* 2.0: updated todo and documentation
+	* 2.0: fixed some treeview issues and performance lacks
+
+21-02-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: more configuration options (styling of tinyMCE)
+	* 2.0: further speedups in constant tree function (only firefox is slow now)
+	* 2.0: fixed some regressions and javascript notices
+	* 2.0: changed handling of hide and unhide all function
+
+20-02-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: new constant tree implementation
+	* 2.0: minor code cleanups
+
+19-02-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: improved support of tinyMCE
+	* 2.0: added configuration option to disable the editor (default, because performance issues)
+
+16-02-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: fixed some tidy warnings
+	* 2.0: added support of tinyMCE
+
+15-02-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: cleaned language label structure
+	* 2.0: added fast workspace selector
+	* 2.0: fixed css regression in search constants
+	* 2.0: added hint in backup diff
+	* 2.0: browser issues and w3c checks
+	* 2.0: fixed problems with createDir function
+	* 2.0: added utf-8 encoding, if we want to write xll(xml) files
+
+14-02-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: some minor sorting fixes
+	* 2.0: added hide/unhide all function in constant tree
+	* 2.0: updated german translation
+	* 2.0: fixed problems with open_basedir
+	* 2.0: updated documentation
+
+13-02-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: added automatic detection of best possible explode Token in the constant tree
+	* Release: LFEditor 1.1.1 (beta)
+	* 1.1.1: added some new htmlspecialchars() (prevent translation of html entities in textares)
+	* 1.1.1: updated documentation
+
+12-02-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 2.0: added a language select menu to the constant tree function
+	* 2.0: added a token selector to the constant tree function
+	* 2.0: added hide and unhide possibilities to the branches of the tree
+	* 2.0: added configuration option default hide or visible at startup of tree
+	* 2.0: usage of definition lists in tree instead of p tags
+	* 2.0: updated documentation
+	* 2.0: some minor language fixes
+	* 2.0: changed extension description
+
+11-02-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* Release: LFEditor 1.1 (beta)
+	* 1.1: updated documentation
+	* 1.1: fixed some problems with IE
+	* 1.1: restructured language labels
+	* 1.1: some visual improvements
+	* 1.1: fixed double border between default and pattern translation
+
+10-02-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 1.1: updated documentation
+	* 1.1: removed newline, if only one extension type is displayed in the extension select menu
+	* 1.1: some english translation fixes
+	* 1.1: fixed some css issues
+	* 1.1: fixed some language labels (displaying issues in tree view)
+	* 1.1: fixed some issues with opera and konqueror
+	* 1.1: added utf-8 encoding and decoding for backups (major problem)
+
+03-02-06 Stefan Galinski  <stefan.galinski@gmail.com>
+
+	* 1.0: initial release

@@ -1,0 +1,97 @@
+14-03-11 Mansoor Ahmad <mansoor@gosign.de>
+	* Drag & Drop Bugfix
+	* Version 1.6.6
+
+10-03-11 Mansoor Ahmad <mansoor@gosign.de>
+	* remove go_stopcslide_pi1 from wizard list
+	* Version 1.6.5
+
+22-02-11 Mansoor Ahmad <mansoor@gosign.de>
+	* TV Sliding Firsttime Insert Bugfix
+	* Version 1.6.4
+
+16-02-11 Mansoor Ahmad <mansoor@gosign.de>
+	* Compatible with TYPO3 4.5.0
+	* Version 1.6.3
+
+26-01-11 Mansoor Ahmad <mansoor@gosign.de>
+	* Compatible with TYPO3 4.4.6
+	* Version 1.6.2
+
+21-07-10 Mansoor Ahmad <mansoor@gosign.de>
+	* Drag & Drop JavaScript Bugfix
+	* Locallang - and default Wizardlist cleaning
+	* Version 1.6.1
+
+23-04-10 Mansoor Ahmad <mansoor@gosign.de>
+	* Wizard Elements Descriptions and Images can be edit easy as Admin
+	* tt_news Plugin become new ViewEngine
+	* Heredity of Columbs Bug fixed for TYPO3 4.3
+	* str_replace Templatemarker optimiezed
+	* Contextmenubug by Drag&Drop Layer fixed
+	* Edit in CE Wizardmod the items easy as admin
+	* Renderingfunction fixed and extends for better Overview
+	* Version 1.6.0
+	
+25-01-10 Mansoor Ahmad <mansoor@gosign.de>
+	* New shorter Dialog by Drag & Drop alert
+	* Version 1.5.3
+
+21-12-09 Mansoor Ahmad <mansoor@gosign.de>
+	* New Structure
+	* Better Drag & Drop support
+	* Somethings like effects of Drag&Drop or Levelhovers are downgraded
+	* Version 1.5.2
+	
+23-11-09 Mansoor Ahmad <mansoor@gosign.de>
+	* Place Level1 Hovererror fixed
+	* Version 1.5.1
+	
+13-11-09 Mansoor Ahmad <mansoor@gosign.de>
+	* Drag and Drop included
+	* Version 1.5.0
+
+10-11-09 Mansoor Ahmad <mansoor@gosign.de>
+	* Networking with CE Shortcut included and fixed
+	* Install conflicts exceptions included
+	* Version 1.4.0
+
+09-11-09 Mansoor Ahmad <mansoor@gosign.de>
+	* Arraymerge Error in Flexform CE fixed
+	* Files will be parsed sometimes as images and make error
+	* Version 1.3.7
+	
+22-10-09 Mansoor Ahmad <mansoor@gosign.de>
+	* Array CType Error fixed
+	* empty Value in TV Flexforms Error fixed
+	* Version 1.3.6
+
+21-10-09 Mansoor Ahmad <mansoor@gosign.de>
+	* Titlebar Icon Bugfix
+	* System-Extensionname Bugfix
+	* Version 1.3.5
+	
+15-09-09 Mansoor Ahmad <mansoor@gosign.de>
+	* Drag and Drop of CE 50 % finished
+	* CSS extended, to get more performence
+	* Version 1.3.4
+
+14-09-09 Mansoor Ahmad <mansoor@gosign.de>
+	* Flex CE Labelcolor support integrated
+	* Version 1.3.3
+
+11-09-09 Mansoor Ahmad <mansoor@gosign.de>
+	* Contentcontainer Markup
+	* TemplaVoila own Mulitilanguage Support integrated
+	* Some Bugfixes (example catch the conflict with direct_mail Ext) 
+	* Version 1.3.2
+
+10-09-09 Mansoor Ahmad <mansoor@gosign.de>
+	* Flexform support included
+	* Page-Template's Header layouted 
+	* Some Bugfixes
+	* Version 1.3.0
+	
+08-09-08 Gosign media.  <info@gosign.de>
+
+	* Initial release

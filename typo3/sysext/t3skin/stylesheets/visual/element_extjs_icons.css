@@ -1,0 +1,17 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+extJS icons
+
+$Id: element_extjs_icons.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+.t3icon-ext-upload {
+	background: url('../../icons/gfx/upload.gif') 3px 4px no-repeat !important;
+}
+
+.t3icon-ext-cancel {
+	background: url('../../icons/gfx/icon_fatalerror.gif') 2px 3px no-repeat !important;
+}
+
+.t3iconstyle-center {
+	background-position: center center;
+}

@@ -1,0 +1,36 @@
+table#wrapper table#loginwrapper td:hover{background:none}
+.go_backend_layout_droppables_position{z-index:999999;position:relative;margin-bottom:4px;border:2px dashed #adafba}
+.go_backend_layout_droppables_position_act{z-index:999999;position:relative;margin-bottom:4px;border:2px solid #ff7e00}
+div#contentMenu0{z-index:9999999}
+td.go_backend_layout_header,td.go_backend_layout_header:hover{color:#000000;font-size:11px;font-weight:bold;background-color:#f8f9fb;padding:4px;border:1px solid #CCCCCC}
+td.templavoila_pi1 .go_backend_layout_flex_ce_label{display:block;position:relative;left:0px;width:auto;margin:0px;text-align:center;padding:2px;color:#000000;font-family:Verdana,Arial,Helvetica,sans-serif;border:1px solid #FFFFFF;background-color:#d1e8ff}
+td.templavoila_pi1 td.templavoila_pi1 .go_backend_layout_flex_ce_label{background-color:#90EE90}
+.go_backend_layout_standard_ce_label{margin:2px;padding:2px;border:1px solid #bfbfbf;background-color:#FFFFFF;color:#000000;font-family:Verdana,Arial,Helvetica,sans-serif}
+.go_backend_layout_shortcut_ce tr.go_backend_layout_ce_header td,.go_backend_layout_shortcut_ce tr.go_backend_layout_ce_header td:hover,.go_backend_layout_shortcut_ce .go_backend_layout_shortcut_ce tr.go_backend_layout_ce_header td:hover{background:#fee5ff}
+td.list table.typo3-dblist{width:100%;border:none;padding:0px 5px 0px 5px}
+td.list a.newWizard{position:relative;top:-19px;left:6px}
+td.list table.typo3-dblist tr.c-headLineTable{display:none}
+td.list table.typo3-dblist tr td.col-control,td.list table.typo3-dblist tr td div.typo3-DBctrl{width:128px;min-width:128px}
+td.list table.typo3-dblist tr td{border-left:1px solid #CCCCCC}
+td.list table.typo3-dblist tr td:first-child,td.list table.typo3-dblist tr td.col-control-space,td.list table.typo3-dblist tr.c-headLine td.col-control,td.list .db_list_normal td.col-control{border:none}
+td.list table.typo3-dblist tr.c-headLine td.col-icon a{display:inline}
+td.list table.typo3-dblist tr.c-headLine td.col-title a{display:inline}
+td.list div.list_options_header,td.list div.list_options{padding:5px}
+td.list div.list_options_header{font-weight:bold}
+td.list div.list_options{border-bottom:1px solid #000000}
+td.list div.list_options a{line-height:20px}
+td.list div.list_options span{color:#555555}
+td.templavoila_pi1 td.templavoila_pi1 td.header:hover,td.templavoila_pi1 td.header:hover,td.header:hover,td.header{height:auto;background-image:url('../../typo3conf/ext/go_backend_layout/images/pageview_header.png');background-repeat:no-repeat;background-position:right top;vertical-align:bottom;padding-left:2px}
+td.templavoila_pi1 td.templavoila_pi1 td.text:hover,td.templavoila_pi1 td.text:hover,td.text:hover,td.text{height:auto;background-image:url('../../typo3conf/ext/go_backend_layout/images/pageview_text.png');background-repeat:no-repeat;background-position:right top;vertical-align:bottom;padding-left:2px}
+td.templavoila_pi1 td.templavoila_pi1 td.textpic:hover,td.templavoila_pi1 td.textpic:hover,td.textpic:hover,td.textpic{height:auto;background-image:url('../../typo3conf/ext/go_backend_layout/images/pageview_textpic.png');background-repeat:no-repeat;background-position:right top;vertical-align:bottom;padding-left:2px}
+td.templavoila_pi1 td.templavoila_pi1 td.bullets:hover,td.templavoila_pi1 td.bullets:hover,td.bullets:hover,td.bullets{height:80px;background-image:url('../../typo3conf/ext/go_backend_layout/images/aufzaehlung.jpg');background-repeat:no-repeat;background-position:right top;vertical-align:bottom;padding-left:2px}
+td.templavoila_pi1 td.templavoila_pi1 td.table:hover,td.templavoila_pi1 td.table:hover,td.table:hover,td.table{height:58px;background-image:url('../../typo3conf/ext/go_backend_layout/images/table.jpg');background-repeat:no-repeat;background-position:right top;vertical-align:bottom;padding-left:2px}
+#ext-templavoila-mod1-index-php{font-size:0.6em}
+#ext-templavoila-mod1-index-php br{line-height:5px}
+.go_backend_layout_droppables_position{position:relative;border:1px dashed #adafba}
+.go_backend_layout_droppables_position_act{position:relative;border:1px solid #ff7e00}
+ul#treeRoot li.active div.treeLinkItem{background-color:#D8D8D8}
+table.go_backend_layout_draggable{border:none;background:#ddd;padding:5px 5px 0px 5px;margin-bottom:8px;-webkit-box-shadow:3px 2px 5px #aaa;-moz-box-shadow:3px 2px 5px #aaa;box-shadow:3px 2px 5px #aaa;-webkit-border-radius:7px;-moz-border-radius:7px;border-radius:7px}
+#ext-templavoila-mod1-index-php{background-color:#F8F8F8}
+table#templavoila_pi1{background:#F8F8F8}
+table#typo3-ceWizardTable tr td{padding:8px 0px 8px 8px}

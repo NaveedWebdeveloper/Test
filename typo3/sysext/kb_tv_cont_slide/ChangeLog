@@ -1,0 +1,22 @@
+2009-02-06 Bernhard Kraft  <kraftb@think-open.at>
+
+	* Added a property "overridePage" (Thanks to Ünal Aydin for suggesting this)
+	* Added a property "slide" for defining the maximal slide level
+	* Added "stdWrap" to all TS properties
+	* Fixed a bug: Extension didn't check if a tt_content element is hidden or not
+
+
+2006-09-27 Bernhard Kraft  <kraftb@kraftb.at>
+
+	* Updated the extension to the newest TV and T3 version requirements. Created documentation for letting images/files slide and made it multilanguage compatible.
+
+
+2005-09-01 Bernhard Kraft  <kraftb@kraftb.at>
+
+	* Fixed a bug: Misused t3lib_BEfunc in FE.
+
+
+2005-06-07 Bernhard Kraft  <kraftb@kraftb.at>
+
+	* Initial release
+

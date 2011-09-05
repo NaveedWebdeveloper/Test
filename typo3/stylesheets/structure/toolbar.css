@@ -1,0 +1,9 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+Toolbar inside the Topbar
+
+$Id: toolbar.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#typo3-toolbar li {
+	float: left;
+}

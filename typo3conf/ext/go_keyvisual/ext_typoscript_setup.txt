@@ -1,0 +1,4 @@
+plugin.tx_gokeyvisual_pi1 {
+	swfWidth = 950
+	swfHeight = 150
+}

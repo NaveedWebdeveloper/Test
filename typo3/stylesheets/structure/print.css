@@ -1,0 +1,18 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+Title  : TYPO3 general backend styles for printing
+
+Description :	Stylesheet for the TYPO3 backend when printing.
+				You can configure another/additional stylesheet for
+				use by the $TBE_STYLES global var
+
+	$Id: print.css 7906 2010-06-13 14:56:44Z ohader $
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+@media print {
+	div#typo3-docbody {
+		overflow: visible;
+	}
+}
+

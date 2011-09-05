@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description></description>
+		<type>module</type>
+		<csh_table></csh_table>
+		<fileId>EXT:dam_index/lib/locallang_indexrules.xml</fileId>
+		<labelContext type="array">
+			<label index="recursive.title"></label>
+			<label index="folderAsCat.title"></label>
+			<label index="folderAsCat.desc"></label>
+			<label index="folderAsCat.use_fuzzy"></label>
+			<label index="dryRun.title"></label>
+			<label index="dryRun.desc"></label>
+			<label index="doReindexing.title"></label>
+			<label index="doReindexing.desc"></label>
+			<label index="doReindexing.use_overwriteEmptyFields"></label>
+			<label index="doReindexing.use_reindexPreserve"></label>
+			<label index="doReindexing.overwriteEmptyFields"></label>
+			<label index="doReindexing.reindexPreserve"></label>
+			<label index="devel.title"></label>
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="recursive.title">Index sub folders</label>
+			<label index="folderAsCat.title">Categorize files from folder names</label>
+			<label index="folderAsCat.desc">Existing categories will be applied to files if a category has the same name as the files folder.</label>
+			<label index="folderAsCat.use_fuzzy">Use fuzzy folder/category comparison.</label>
+			<label index="folderAsCat.createCategory">Create categories based on foldertree if not already present.</label>
+			<label index="dryRun.title">Dry run</label>
+			<label index="dryRun.desc">Do not actually insert any data into the DAM; just print what would happen.</label>
+			<label index="doReindexing.title">Reindexing</label>
+			<label index="doReindexing.desc">Reindex files and update meta data.</label>
+			<label index="doReindexing.use_overwriteEmptyFields">Files will be reindexed. Only meta data will be get which is still missing.</label>
+			<label index="doReindexing.use_reindexPreserve">Files will be reindexed. Old meta data will be used if now new is available. Will overwrite data!</label>
+			<label index="doReindexing.use_reindexFull">Files will be reindexed. Will overwrite all data!</label>
+			<label index="doReindexing.overwriteEmptyFields">Only get meta data which is still missing.</label>
+			<label index="doReindexing.reindexPreserve">Overwrite current meta data with data from file. Will overwrite the meta data but preserve those where's no data available from the file itself.</label>
+			<label index="doReindexing.reindexFull">Overwrite all current meta data with data from file.</label>
+			<label index="titleFromFilename.title">Force to make a title from file name</label>
+			<label index="titleFromFilename.desc">A title for the media item will be used from extracted meta data of the files when available. This function force to generate a title from the file name.</label>
+			<label index="devel.title">Delete all index data - FOR TESTING ONLY!</label>
+		</languageKey>
+	</data>
+</T3locallang>

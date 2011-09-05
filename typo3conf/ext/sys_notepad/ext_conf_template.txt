@@ -1,0 +1,5 @@
+# cat=basic; type=string;label=CSS styles for the personal notes!
+styles= width:100%;height:200px;
+
+# cat=basic; type=boolean;label=Save the note encrypted
+encrypt = 1

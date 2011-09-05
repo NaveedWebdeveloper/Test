@@ -1,0 +1,3 @@
+config.titleTagFunction = tx_browserpagetitle->getTitle
+plugin.browser_page_title.currentTitle = {tx_browserpagetitle_browser_title}
+plugin.browser_page_title.defaultTitle = {title}

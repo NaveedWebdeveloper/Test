@@ -1,0 +1,20 @@
+plugin.tx_queospeedup_pi1 {
+	# HINT: "none" means just merging, no compression.
+	# possible values are "none", "minify" and "yuicss"
+	#csscomp = yuicss
+	csscomp = minify
+	# possible values are "none", "jsmin", "jsminplus" and "yuijs"
+	#jscomp = yuijs
+	jscomp = jsmin
+	
+	# these settings (following) are for yui only
+	
+	# temp dir for yui files
+	tmpdir = /tmp
+	# path to java executable /usr/bin/java or just java for instance
+	javapath = java
+	# has to start with slash always
+	jarpath = /typo3conf/ext/queo_speedup/res/yuicompressor-2.4.2.jar
+	# if this is 1, $_SERVER['DOCUMENT_ROOT'] will be prepended automatically
+	jarpath.isrelative = 1
+}

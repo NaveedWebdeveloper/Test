@@ -1,0 +1,56 @@
+plugin.go_imagedit_be.default {
+	render {
+		# maximale Breite und Höhe jedes Bildes im Contentelement
+		maxWidth =
+		maxHeight =
+		
+		# Gilt nur für Extensioninterne Renderings
+		htmlProperties {
+			alt =
+			title =
+		}
+	}
+}
+
+
+# Das hier ist aus dam_tt_content geklaut
+# *****************
+# CType: image
+# *****************
+# (also used for rendering 'textpic' type):
+
+tt_content.image.20 {
+	1 {
+	
+		// TODO
+		longdescURL < .altText
+		longdescURL.field = longdescURL
+			
+		altText >
+		altText = TEXT
+#		altText.data = field : txdam_alt_text // field : altText
+		altText.data = field : altText // field : txdam_alt_text
+
+		titleText >
+		titleText = TEXT
+#		titleText.data = field : txdam_title // field : titleText
+		titleText.data = field : titleText // field : txdam_title
+	}
+
+	captionEach = {$styles.content.imgtext.captionEach}
+	caption {
+		1 = TEXT
+		1 {
+			field >
+#			data = field : txdam_caption // field : txdam_description // field : imagecaption
+			data = field : imagecaption // field : txdam_caption // field : txdam_description
+			required = 1
+			parseFunc =< lib.parseFunc
+			br = 1
+			fontTag = <p class="csc-caption">|</p>
+			wrapAlign.field = imagecaption_position
+			split >
+		}
+	}
+}
+

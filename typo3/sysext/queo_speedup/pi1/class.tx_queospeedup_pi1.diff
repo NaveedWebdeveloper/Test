@@ -1,0 +1,22 @@
+Index: class.tx_queospeedup_pi1.php
+===================================================================
+--- class.tx_queospeedup_pi1.php	(Revision 3776)
++++ class.tx_queospeedup_pi1.php	(Arbeitskopie)
+@@ -191,7 +191,7 @@
+ 			}
+ 			$fileName = $GLOBALS['TSFE']->tmpl->getFileName($value);
+ 			//remove @charset stuff for webkit browsers
+-			$cssContent = preg_replace('%@charset.*;%Ui', '', file_get_contents($fileName));
++			$cssContent = preg_replace('%@charset.*;%Ui', '', file_get_contents($fileName))."\n";
+ 			$content[$media] .= Minify_CSS_UriRewriter::rewrite($cssContent, dirname($fileName));
+ 		}
+ 		return $content;
+@@ -205,7 +205,7 @@
+ 		$content = '';
+ 		if (!is_array($GLOBALS['TSFE']->pSetup['includeJS.'])) $GLOBALS['TSFE']->pSetup['includeJS.'] = array();
+ 		foreach ($GLOBALS['TSFE']->pSetup['includeJS.'] as $key => $value) {
+-			$content .= file_get_contents($GLOBALS['TSFE']->tmpl->getFileName($value));
++			$content .= file_get_contents($GLOBALS['TSFE']->tmpl->getFileName($value))."\n";
+ 		}
+ 		return $content;
+ 	}

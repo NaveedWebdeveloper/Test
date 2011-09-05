@@ -1,0 +1,21 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+Username inside the toolbar
+
+$Id: toolbar_username.css 9848 2010-12-18 08:30:53Z stephenking $
+- - - - - - - - - - - - - - - - - - - - - */
+
+#username {
+	margin-left: 25px;
+	margin-right: 10px;
+	padding-top: 2px;
+}
+
+#username span {
+	margin-right: 4px;
+	vertical-align: bottom;
+}
+
+#username img {
+	padding-right: 4px;
+	vertical-align: bottom;
+}

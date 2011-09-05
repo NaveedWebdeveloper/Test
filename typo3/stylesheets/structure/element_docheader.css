@@ -1,0 +1,13 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+Docheader
+
+$Id: element_docheader.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+div#typo3-docbody {
+	bottom: 0;
+	overflow: auto;
+	position: absolute;
+	top: 51px;
+	width: 100%;
+}

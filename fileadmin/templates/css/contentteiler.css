@@ -1,0 +1,256 @@
+/*
+#
+### Contentteiler - 2 spaltig
+#
+*/
+table.contentteiler2{
+	display:block;
+}
+
+table.contentteiler2 tr td{
+	width:50%;
+	overflow:hidden;
+}
+
+table.contentteiler2 tr td.left{
+	padding-right:5px;
+}
+
+table.contentteiler2 tr td.right{
+	padding-left:5px;
+}
+
+/* Contentelementspezifische Einstellung*/
+/* # Header*/
+table.contentteiler2 tr td div.csc-header{
+	width:214px;
+	overflow:hidden;
+	display:block;
+}
+
+
+
+/* # Bildmodul*/
+table.contentteiler2 tr td.left div.csc-textpic-left{
+	display:block;
+	float:left;
+	width:202px;
+	margin-right:11px;
+	overflow:hidden;
+}
+
+table.contentteiler2 tr td.right div.csc-textpic-left{
+	display:block;
+	float:right;
+	width:202px;
+	margin-left:12px;
+	overflow:hidden;
+}
+*+html table.contentteiler2 tr td.right div.csc-textpic-left{
+	margin-left:6px;
+}
+*html table.contentteiler2 tr td.right div.csc-textpic-left{
+	margin-left:1px;
+}
+
+table.contentteiler2 tr td.right div.csc-textpic-left div.csc-textpic-text{
+	width:202px;
+}
+
+/* Abstand der Bildunterschrift zum Bild */
+table.contentteiler2 tr td div.csc-textpic-left div.csc-textpic-text{
+	padding-top:2px;
+}
+*+html table.contentteiler2 tr td div.csc-textpic-left div.csc-textpic-text{
+	padding-top:7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+#
+### Contentteiler - 3 spaltig
+#
+*/
+table.contentteiler3{
+	display:block;
+}
+
+table.contentteiler3 tr td{
+	width:34%;
+	overflow:hidden;
+}
+
+table.contentteiler3 tr td.left{
+	padding-right:5px;
+}
+
+table.contentteiler3 tr td.middle{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+table.contentteiler3 tr td.right{
+	padding-left:5px;
+}
+
+/* Contentelementspezifische Einstellung*/
+table.contentteiler3 tr td div.csc-header{
+	width:141px;
+	overflow:hidden;
+	display:block;
+}
+
+
+
+
+table.contentteiler3 tr td.left div.csc-textpic-left{
+	display:block;
+	float:left;
+	width:124px;
+	margin-right:11px;
+	overflow:hidden;
+}
+
+table.contentteiler3 tr td.middle div.csc-textpic-left{
+	display:block;
+	float:left;
+	width:124px;
+	margin-right:12px;
+	margin-left:12px;
+	overflow:hidden;
+}
+*html table.contentteiler3 tr td.middle div.csc-textpic-left{
+	margin-left:1px;
+}
+
+table.contentteiler3 tr td.right div.csc-textpic-left{
+	display:block;
+	float:right;
+	width:124px;
+	margin-left:11px;
+	overflow:hidden;
+}
+*+html table.contentteiler3 tr td.right div.csc-textpic-left{
+	margin-left:6px;
+}
+*html table.contentteiler3 tr td.right div.csc-textpic-left{
+	margin-left:1px;
+}
+
+table.contentteiler3 tr td.right div.csc-textpic-left div.csc-textpic-text{
+	width:124px;
+}
+
+/* Abstand der Bildunterschrift zum Bild */
+table.contentteiler3 tr td div.csc-textpic-left div.csc-textpic-text{
+	padding-top:2px;
+}
+*+html table.contentteiler3 tr td div.csc-textpic-left div.csc-textpic-text{
+	padding-top:7px;
+}
+
+
+
+
+
+
+
+
+/*
+#
+### Contentteiler - 4 spaltig
+#
+*/
+table.contentteiler4{
+	display:block;
+}
+
+table.contentteiler4 tr td{
+	width:25%;
+	overflow:hidden;
+}
+
+table.contentteiler4 tr td.left{
+	padding-right:5px;
+}
+
+table.contentteiler4 tr td.middle{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+table.contentteiler4 tr td.right{
+	padding-left:5px;
+}
+
+/* Contentelementspezifische Einstellung*/
+table.contentteiler4 tr td div.csc-header{
+	width:104px;
+	overflow:hidden;
+	display:block;
+}
+
+
+
+
+table.contentteiler4 tr td.left div.csc-textpic-left{
+	display:block;
+	float:left;
+	width:85px;
+	margin-right:11px;
+	overflow:hidden;
+}
+
+table.contentteiler4 tr td.middle div.csc-textpic-left{
+	display:block;
+	float:left;
+	width:85px;
+	margin-right:12px;
+	margin-left:12px;
+	overflow:hidden;
+}
+*html table.contentteiler4 tr td.middle div.csc-textpic-left{
+	margin-left:1px;
+}
+
+table.contentteiler4 tr td.right div.csc-textpic-left{
+	display:block;
+	float:right;
+	width:85px;
+	margin-left:11px;
+	overflow:hidden;
+}
+*+html table.contentteiler4 tr td.right div.csc-textpic-left{
+	margin-left:6px;
+}
+*html table.contentteiler4 tr td.right div.csc-textpic-left{
+	margin-left:1px;
+}
+
+table.contentteiler4 tr td.right div.csc-textpic-left div.csc-textpic-text{
+	width:85px;
+	
+}
+
+/* Abstand der Bildunterschrift zum Bild */
+table.contentteiler4 tr td div.csc-textpic-left div.csc-textpic-text{
+	padding-top:2px;
+}
+*+html table.contentteiler4 tr td div.csc-textpic-left div.csc-textpic-text{
+	padding-top:7px;
+}
+
+
+
+
+
+

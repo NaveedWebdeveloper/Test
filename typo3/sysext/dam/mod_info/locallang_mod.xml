@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description></description>
+		<type>module</type>
+		<csh_table></csh_table>
+		<fileId>EXT:dam_info/mod1/locallang_mod.xml</fileId>
+		<labelContext type="array">
+			<label index="mlang_tabs_tab"></label>
+			<label index="mlang_labels_tabdescr"></label>
+			<label index="mlang_labels_tablabel"></label>
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="mlang_tabs_tab">Info</label>
+			<label index="mlang_labels_tablabel">Information</label>
+			<label index="mlang_labels_tabdescr">Gives information, overviews and statistics about the indexed files.</label>
+		</languageKey>
+	</data>
+</T3locallang>

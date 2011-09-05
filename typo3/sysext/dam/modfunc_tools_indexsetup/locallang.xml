@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description></description>
+		<type>module</type>
+		<csh_table></csh_table>
+		<fileId>EXT:dam/modfunc_tools_indexsetup/locallang.xml</fileId>
+		<labelContext type="array">
+			<label index="tx_dam_tools_indexsetup.title"></label>
+			<label index="tx_dam_tools_indexsetup.func_defindex"></label>
+			<label index="tx_dam_tools_indexsetup.func_cron_info"></label>
+			<label index="tx_dam_tools_indexsetup.finish"></label>
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_dam_tools_indexsetup.title">Indexing Setup</label>
+			<label index="tx_dam_tools_indexsetup.func_defindex">Define index setup</label>
+			<label index="tx_dam_tools_indexsetup.func_cron_info">Cron job index setup overview</label>
+			<label index="tx_dam_tools_indexsetup.finish">Finish</label>
+			<label index="tx_dam_tools_indexsetup.start_point">Indexing start point</label>
+			<label index="tx_dam_tools_indexsetup.desc">With this wizard you can define and save a setup for the auto indexing feature or the stand-alone indexing script usable for cron jobs.</label>
+		</languageKey>
+	</data>
+</T3locallang>

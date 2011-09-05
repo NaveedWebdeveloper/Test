@@ -1,0 +1,30 @@
+/********
+WICHTIG WICHTIG WICHTIG WICHTIG WICHTIG WICHTIG 
+neue Klassen müssen im PAGE TS 
+RTE.default.proc.allowedClasses = link1,color
+eingetragen sein!!!!!!
+********/
+
+/*
+Wird im formatfeld angezeigt, jedoch nur mit span.irgendeine_andere_nicht_vorkommende_klasse erstellt
+*/
+p div.color{
+	color:#ee5d00 !important;
+}
+span.color{
+	font-weight:bold;
+}
+
+/*Wird aufgeführt*/
+.link1, a.link1, span.link1, p.link1 a{
+	text-decoration:underline;
+	font-weight:normal;
+	color:#ee5d00 !important;
+	
+	border:none;
+	background:none;
+	
+	font-size:11px;
+	line-height:1.15em;
+}
+

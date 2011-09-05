@@ -1,0 +1,121 @@
+/** base_2sp_centered.css
+* --- Gosign media. ---
+* version 1.0
+* (c) Copyright 2008 Gosign media. All Rights Reserved.
+* 2008-24-01
+*/
+body,
+div,dl,dt,dd,ul,li,
+h1,h2,h3,h4,h5,h6,
+pre,form,fieldset,input,textarea,
+p,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,var{font-style:normal;font-weight:normal;}
+ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+img{display:inline;}
+
+a{outline:none;}
+a:link,
+a:visited{text-decoration:none;}
+a:hover{text-decoration:underline;}
+a:active{text-decoration:none;}
+
+.hidden{display:none;}
+
+body {
+	background-color:#1F1205;
+	font-family:Calibri, Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size:100%;
+	color:#333333;
+}
+
+#outer {
+	padding:30px 0px 0px 0px;
+	margin:0px;
+}
+
+#container {
+	background:#FFFFFF;
+	overflow:hidden;
+	width:950px;
+	min-height:100%;
+	margin:0px auto;
+	position:relative;
+}
+
+#header {
+	background:#3E2914;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	position:relative;
+}
+
+#logo {
+	display:block;
+	height:155px;
+}
+
+.logo {
+	display:block;
+}
+
+#top_menu {
+	background:#3E2914;
+	width:100%;
+}
+
+#content {
+	width:100%;
+	min-height:458px;
+	margin:0px;
+	padding:0px;
+}
+
+
+#left_column {
+	float:left;
+	min-height:458px;
+	margin:0pt 10pt 0pt 0pt;
+}
+
+#left_column img {
+	display:block;
+}
+
+#content_column {
+	margin:0pt 10pt 0pt 0pt;
+}
+
+#middle_column_content,#left_menu,#right_column_content {
+	overflow:hidden;
+}
+
+.clearall:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearall {display:inline-table;}
+
+/* Hide from IE Mac \*/
+.clearall {display:block;}
+* html .clearall { background:none; }   /* ... für IE5 + IE6/Win | hasLayout aktivieren */
+/* End hide from IE Mac */
+#footer {
+	background:#1F1205;
+	height:30px;
+	width:100%;
+	position:relative;
+}
+
+#footer img {
+	position:relative;
+}
+

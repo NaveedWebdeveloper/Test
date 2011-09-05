@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="de" type="array">
+			<label index="note_status_read">gelesene Notiz</label>
+			<label index="note_status_unread">ungelesene Notiz</label>
+			<label index="note_status_empty">leere Notiz</label>
+			<label index="action_close">Notiz schließen</label>
+			<label index="action_edit">Notiz bearbeiten</label>
+			<label index="action_save">Notiz speichern</label>
+			<label index="action_delete">Notiz löschen</label>
+			<label index="action_confirm_delete">Sind Sie sicher, dass Sie diese Notiz löschen möchten?</label>
+			<label index="untitled">Unbenannt</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="de" type="array">
+			<label index="note_status_read" type="integer">148308545</label>
+			<label index="note_status_unread" type="integer">245463531</label>
+			<label index="note_status_empty" type="integer">213579433</label>
+			<label index="action_close" type="integer">172363375</label>
+			<label index="action_edit" type="integer">86487867</label>
+			<label index="action_save" type="integer">254082691</label>
+			<label index="action_delete" type="integer">210040925</label>
+			<label index="action_confirm_delete" type="integer">208276820</label>
+			<label index="untitled" type="integer">152153978</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="de" type="array">
+			<label index="note_status_read">read note</label>
+			<label index="note_status_unread">unread note</label>
+			<label index="note_status_empty">empty note</label>
+			<label index="action_close">close note</label>
+			<label index="action_edit">edit note</label>
+			<label index="action_save">save note</label>
+			<label index="action_delete">delete note</label>
+			<label index="action_confirm_delete">Are you sure you want to delete this note?</label>
+			<label index="untitled">Untitled</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

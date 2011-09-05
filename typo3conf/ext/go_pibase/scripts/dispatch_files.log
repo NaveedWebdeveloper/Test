@@ -1,0 +1,28 @@
+2009-06-04 13:28:02: Fehler: test.mov (-1 bytes): FFMPEG Fehlercode 32512, Fehlertext: "nice: /usr/bin/ffmpeg: No such file or directory, nice: /usr/bin/ffmpeg: No such file or directory"
+2009-06-04 13:28:02: Fehler: test.mov: ERROR: cannot open `test.mov' (No such file or directory)
+2009-06-04 13:30:49: Fehler: test.mov (-1 bytes): FFMPEG Fehlercode 256, Fehlertext: "test/test.mov: no such file or directory"
+2009-06-04 13:30:49: Fehler: test.mov: ERROR: cannot open `test.mov' (No such file or directory)
+2009-06-04 13:31:11: Fehler: vid.mov (5480586 bytes): FFMPEG Fehlercode 256, Fehlertext: "WARNING: The bitrate parameter is set too low. It takes bits/s as argument, not kbits/s, Unknown encoder 'mp3'"
+2009-06-04 13:31:11: Fehler: vid.mov, 352x288, 1890 / 64 kbps, videocodec: h263, yuv420p, audiocodec: pcm_mulaw
+2009-06-04 13:31:56: Fehler: vid.mov (5480586 bytes): FFMPEG Fehlercode 256, Fehlertext: "WARNING: The bitrate parameter is set too low. It takes bits/s as argument, not kbits/s, Unknown encoder 'mp3'"
+2009-06-04 13:31:56: Fehler: vid.mov, 352x288, 1890 / 64 kbps, videocodec: h263, yuv420p, audiocodec: pcm_mulaw
+2009-06-04 13:32:02: Fehler: vid.mov (5480586 bytes): FFMPEG Fehlercode 256, Fehlertext: "WARNING: The bitrate parameter is set too low. It takes bits/s as argument, not kbits/s, Unknown encoder 'mp3'"
+2009-06-04 13:32:02: Fehler: vid.mov, 352x288, 1890 / 64 kbps, videocodec: h263, yuv420p, audiocodec: pcm_mulaw
+2009-06-04 13:34:35: Fehler: vid.mov (5480586 bytes): FFMPEG Fehlercode 256, Fehlertext: "WARNING: The bitrate parameter is set too low. It takes bits/s as argument, not kbits/s, Unknown encoder 'mp3'"
+2009-06-04 13:34:35: Fehler: vid.mov, 352x288, 1890 / 64 kbps, videocodec: h263, yuv420p, audiocodec: pcm_mulaw
+2009-06-04 13:35:28: Fehler: vid.mov (5480586 bytes): FFMPEG Fehlercode 256, Fehlertext: "WARNING: The bitrate parameter is set too low. It takes bits/s as argument, not kbits/s, Unknown encoder 'mp3'"
+2009-06-04 13:35:28: Fehler: vid.mov, 352x288, 1890 / 64 kbps, videocodec: h263, yuv420p, audiocodec: pcm_mulaw
+2009-06-04 13:38:16: Konvertiert: vid.mov, 352x288, 1890 / 64 kbps, videocodec: h263, yuv420p, audiocodec: pcm_mulaw
+2009-06-04 13:40:27: Fehler: vid.mov (5480586 bytes): FFMPEG Fehlercode 256, Fehlertext: "WARNING: The bitrate parameter is set too low. It takes bits/s as argument, not kbits/s, Unknown encoder 'mp3'"
+2009-06-04 13:40:27: Fehler: vid.mov, 352x288, 1890 / 64 kbps, videocodec: h263, yuv420p, audiocodec: pcm_mulaw
+2009-06-04 13:48:24: Konvertiert: vid.mov, 352x288, 1890 / 64 kbps, videocodec: h263, yuv420p, audiocodec: pcm_mulaw
+2009-06-04 13:48:31: Konvertiert: vid.mov, 352x288, 1890 / 64 kbps, videocodec: h263, yuv420p, audiocodec: pcm_mulaw
+2009-06-04 14:13:42: Konvertiert: vid.mov, 352x288, 1890 / 64 kbps, videocodec: h263, yuv420p, audiocodec: pcm_mulaw
+2009-06-04 15:30:17: Fehler: 08c4fd3c21_vid.mov (-1 bytes): FFMPEG Fehlercode 256, Fehlertext: "fileadmin/user_upload/unprocessed/wg/projekt/gallery/kategorie_308c4fd3c21_vid.mov: no such file or directory"
+2009-06-04 15:30:17: Fehler: 08c4fd3c21_vid.mov: ERROR: cannot open `08c4fd3c21_vid.mov' (No such file or directory)
+2009-06-04 15:31:33: Fehler: 08c4fd3c21_vid.mov (-1 bytes): FFMPEG Fehlercode 256, Fehlertext: "fileadmin/user_upload/unprocessed/wg/projekt/gallery/kategorie_3/08c4fd3c21_vid.mov: no such file or directory"
+2009-06-04 15:31:33: Fehler: 08c4fd3c21_vid.mov: ERROR: cannot open `08c4fd3c21_vid.mov' (No such file or directory)
+2009-06-04 15:32:48: Fehler: 08c4fd3c21_vid.mov (-1 bytes): FFMPEG Fehlercode 256, Fehlertext: "WARNING: The bitrate parameter is set too low. It takes bits/s as argument, not kbits/s, Could not open '/var/www/projects/current/bebe-generation/fileadmin/user_upload/processed/wg/projekt/gallery/kategorie_3/08c4fd3c21_vid.flv'"
+2009-06-04 15:32:48: Fehler: 08c4fd3c21_vid.mov, 352x288, 1890 / 64 kbps, videocodec: h263, yuv420p, audiocodec: pcm_mulaw
+2009-06-04 15:33:41: Konvertiert: 08c4fd3c21_vid.mov, 352x288, 1890 / 64 kbps, videocodec: h263, yuv420p, audiocodec: pcm_mulaw
+2009-06-04 15:34:39: Konvertiert: 08c4fd3c21_vid.mov, 352x288, 1890 / 64 kbps, videocodec: h263, yuv420p, audiocodec: pcm_mulaw

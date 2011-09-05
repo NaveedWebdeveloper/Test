@@ -1,0 +1,1 @@
+a:2:{s:8:"origFile";s:74:"typo3conf/ext/kickstarter/locallang_db.xml|16-02-2011 09:16:36|version=2.3";s:10:"LOCAL_LANG";a:2:{s:7:"default";a:2:{s:38:"moduleFunction.tx_kickstarter_modfunc1";s:20:"Create new Extension";s:38:"moduleFunction.tx_kickstarter_modfunc2";s:19:"Edit in Kickstarter";}s:2:"de";s:49:"typo3conf/l10n/de/kickstarter/de.locallang_db.xml";}}

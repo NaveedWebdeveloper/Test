@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'go_keyvisual'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pages.tx_gokeyvisual_image">Keyvisual Image</label>
+			<label index="pages.tx_gokeyvisual_imagelink">Keyvisual Imagelink</label>
+			<label index="pages.tx_gokeyvisual_flash">Keyvisual Flash</label>
+			<label index="pages_language_overlay.tx_gokeyvisual_image">Keyvisual Image</label>
+			<label index="pages_language_overlay.tx_gokeyvisual_imagelink">Keyvisual Imagelink</label>
+			<label index="pages_language_overlay.tx_gokeyvisual_flash">Keyvisual Flash</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pages.tx_gokeyvisual_image">Keyvisual Bild</label>
+			<label index="pages.tx_gokeyvisual_imagelink">Keyvisual Bildlink</label>
+			<label index="pages.tx_gokeyvisual_flash">Keyvisual Flash</label>
+			<label index="pages_language_overlay.tx_gokeyvisual_image">Keyvisual Bild</label>
+			<label index="pages_language_overlay.tx_gokeyvisual_imagelink">Keyvisual Bildlink</label>
+			<label index="pages_language_overlay.tx_gokeyvisual_flash">Keyvisual Flash</label>
+		</languageKey>
+	</data>
+</T3locallang>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description></description>
+		<type>module</type>
+		<csh_table></csh_table>
+		<fileId>EXT:dam/modfunc_file_upload/locallang.xml</fileId>
+		<labelContext type="array">
+			<label index="tx_dam_file_upload.title"></label>
+			<label index="tx_dam_file_upload.showBrowser"></label>
+			<label index="tx_dam_file_upload.submitProcess"></label>
+			<label index="tx_dam_file_upload.uploadStarted"></label>
+			<label index="tx_dam_file_upload.uploadProgress"></label>
+			<label index="tx_dam_file_upload.uploadFinished"></label>
+			<label index="tx_dam_file_upload.uploadFiles"></label>
+			<label index="tx_dam_file_upload.uploadFailed"></label>
+			<label index="tx_dam_file_upload.uploadFailedDesc"></label>
+			<label index="tx_dam_file_upload.maxSizeHint"></label>
+			<label index="tx_dam_file_upload.uploadNothing"></label>
+			<label index="tx_dam_file_upload.uploadMessages"></label>
+			<label index="tx_dam_file_upload.maxSizeExceeded"></label>
+			<label index="tx_dam_file_upload.noProcSelection"></label>
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_dam_file_upload.title">Upload</label>
+			<label index="tx_dam_file_upload.showBrowser">Show upload location browser</label>
+			<label index="tx_dam_file_upload.submitProcess">Process selected files</label>
+			<label index="tx_dam_file_upload.submitMeta">Save meta data</label>
+			<label index="tx_dam_file_upload.uploadStarted">Upload started</label>
+			<label index="tx_dam_file_upload.uploadProgress">Upload progress:</label>
+			<label index="tx_dam_file_upload.uploadFinished">Upload finished</label>
+			<label index="tx_dam_file_upload.uploadFiles">Uploaded files</label>
+			<label index="tx_dam_file_upload.uploadFilesNeedsMeta">Files which needs meta data</label>
+			<label index="tx_dam_file_upload.uploadFailed">Upload failed</label>
+			<label index="tx_dam_file_upload.uploadFailedDesc">It seems the file(s) were too large for uploading.</label>
+			<label index="tx_dam_file_upload.indexingFailed">Indexing failed</label>
+			<label index="tx_dam_file_upload.maxSizeHint">(Maximum upload size: %s)</label>
+			<label index="tx_dam_file_upload.uploadNothing">No files uploaded!</label>
+			<label index="tx_dam_file_upload.uploadMessages">Messages:</label>
+			<label index="tx_dam_file_upload.maxSizeExceeded">Files size exceeded? (%s)</label>
+			<label index="tx_dam_file_upload.noProcSelection">There are no files selected for processing!</label>
+			<label index="tx_dam_file_upload.uploadTargetFilemount">Selected folder</label>
+			<label index="tx_dam_file_upload.uploadTargetIncoming">Incoming folder</label>
+			<label index="tx_dam_file_upload.uploadTarget">Location:</label>
+			<label index="tx_dam_file_upload.editMeta">Edit meta data</label>
+			<label index="tx_dam_file_upload.flashUploader">Flash uploader is enabled - to make use of it, click on the upload button %s in the header of the File list module.</label>
+		</languageKey>
+	</data>
+</T3locallang>

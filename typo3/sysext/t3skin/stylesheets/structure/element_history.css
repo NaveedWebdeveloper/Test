@@ -1,0 +1,15 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+History / Undo
+
+$Id: element_history.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+table#typo3-history tr td,
+table#typo3-history-item tr td {
+	vertical-align: top;
+}
+
+table#typo3-history img,
+table#typo3-history-item img {
+	margin: 1px 1px 1px 1px;
+}

@@ -1,0 +1,19 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+Go back A-tags
+
+$Id: element_button_back.css 7906 2010-06-13 14:56:44Z ohader $
+- - - - - - - - - - - - - - - - - - - - - */
+
+a.typo3-goBack {
+	padding: 1px 1px 1px 1px;
+}
+
+a.typo3-goBack img {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+span.typo3-moduleHeader img {
+	margin-right: 4px;
+	vertical-align: middle;
+}

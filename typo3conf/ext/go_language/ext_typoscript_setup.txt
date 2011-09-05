@@ -1,0 +1,33 @@
+# Mehrsprachigkeit
+config.sys_language_mode=content_fallback
+config.sys_language_overlay = hideNonTranslated
+
+config.linkVars = L
+
+config.sys_language_uid = 0
+config.language = de
+config.htmlTag_langKey = de
+config.locale_all = de_DE
+
+#config.sys_language_uid := getSysLanguageUid(get)
+#config.language := getLanguageT3(get)
+#config.htmlTag_langKey := getLanguageIso(get)
+#config.locale_all := getLocaleAll(get)
+
+[globalVar = GP:L = 1]
+config.sys_language_uid = 1
+config.language = en
+config.htmlTag_langKey = en
+config.locale_all = en_EN
+[global]
+
+# HIER WIRD DER AUTOMATISCHE LANGUAGE-REDIRECT EINGELEITET! (NACH BROWSER-SPRACHEN-PRÄFERENZ)
+# geht nur so, weil es sonst gecached wird und eine ungecachede Funktion wollen wir nicht wegen proxies
+[userFunc = user_checkRedirect()]
+[global]
+
+#page.1 = USER
+#page.1.userFunc = tx_golanguage_pi1->main
+
+#page.2 = USER
+#page.2.userFunc = tx_golanguage_pi1->getMenu

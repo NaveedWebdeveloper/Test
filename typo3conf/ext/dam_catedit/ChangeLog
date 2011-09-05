@@ -1,0 +1,79 @@
+2011-01-27  Lorenz Ulrich <lorenz.ulrich@visol.ch>
+
+    * Fix/Feature #16299: Visual and functional improvement of dam_catedit
+
+2011-01-19  Lorenz Ulrich <lorenz.ulrich@visol.ch>
+
+    * Fix #6014: dam_catedit: Normal BE-User unable to add/sort Toplevel Categories (Thanks to Stanislas Rolland)
+
+2011-01-17  Lorenz Ulrich <lorenz.ulrich@visol.ch>
+
+    * Fix #15624: dam_catedit: Add 'doNotLoadInFE' => 1 to ext_emconf.php
+
+2010-07-12  Dmitry Dulepov  <dmitry@typo3.org>
+
+	* Fixed bug #15046: dam_catedit looks differently from other DAM modules
+
+2010-02-13  Michiel Roos <michiel@netcreators.com>
+
+	* Fix #13513: Delimiters missing in preg_replace (Thanks to Bart Dubelaar)
+
+2010-02-05  Michiel Roos <michiel@netcreators.com>
+
+	* Fix #13227: dam_catedit uses 'ereg_replace()' which is deprecated in PHP 5.3 (Thanks to Peter Foerger)
+
+2010-01-10  Michiel Roos <michiel@netcreators.com>
+
+	* Fix #12918: Respect $TCA['tx_dam_cat']['ctrl']['default_sortby'] = 'mychoice'; everywhere (Thanks to Uschi Renziehausen) 
+
+2009-08-24  Michiel Roos <michiel@netcreators.com>
+
+	* #11700: use _GPmerged instead of GParrayMerged  (Thanks to Georg Ringer)
+
+2009-02-04  Michael Stucki  <michael@typo3.org>
+
+	* Add closing PHP tag to lib/class.tx_damcatedit_cm.php (was missing before)
+
+2009-01-18  Michiel Roos <michiel@netcreators.com>
+
+	* #8372: No IconWorks used (Thanks to Niels Fr?hling)
+	
+2008-12-26  Michiel Roos <michiel@netcreators.com>
+
+	* Setting version to 1.1.0
+
+2008-05-30  Benjamin Mack  <benni@typo3.org>
+
+	* Updated version to 1.1.0-dev
+	* Fixed bug #7342-2: dam_catedit doesn't work properly with 4.2-trunk (clickmenu javascript error), part 2 (Thanks to David Steeb)
+
+2007-09-29  Michael Stucki  <michael@typo3.org>
+
+	* Takeover by the DAM development team
+
+2006-11-26  Rene Fritz  <r.fritz@colorcube.de>
+
+	* Fix: Return to list and reload navframe when new category was created
+
+2006-09-14  Rene Fritz  <r.fritz@colorcube.de>
+
+	* Fix: versioning action link works now
+	* Added: veriCode() to links
+
+2006-08-31  Rene Fritz  <r.fritz@colorcube.de>
+
+	* Fix: Workaround added: delete function in navframe jumped to another submodule when that was called before the current submodule
+	* Fix: Delete function in list module works now
+	* Fix: non-admins don't get access to root elements in list module when clicking on the root icon in nav frame
+
+2006-05-29  Rene Fritz  <r.fritz@colorcube.de>
+
+	* Fix: use of $GLOBALS['TYPO3_DB']->xxx
+
+2006-04-11  Rene Fritz  <r.fritz@colorcube.de>
+
+	* Fix: In the navframe, the path to the 'reload'-icon was wrong
+
+2006-04-07  Rene Fritz  <r.fritz@colorcube.de>
+
+	* 1.0 release
